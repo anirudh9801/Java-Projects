@@ -1,0 +1,14 @@
+package com.java.Prog;
+
+public class StringReplace {
+	
+	public static void main(String[] args) {
+		String Original ="Anirudh";
+		String subsstringToReplace ="Kumar";
+		String replacement ="Mehta";
+	
+	}
+	
+	public static String replaceSubstring(String Original,String) 
+
+}

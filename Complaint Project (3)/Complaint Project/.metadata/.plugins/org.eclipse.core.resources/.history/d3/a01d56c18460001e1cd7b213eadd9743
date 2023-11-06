@@ -1,0 +1,48 @@
+<%@page import="java.util.List"%>
+<%@page import="com.java.comp.ResolveComplaint"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+    <h1>Resolved Records</h1>
+    <table border="1">
+        <tr>
+            <th>Resolve ID</th>
+            <th>Complaint ID</th>
+            <th>Complaint Date</th>
+            <th>Resolve Date</th>
+            <th>Resolved By</th>
+            <th>Comments</th>
+            <th>TAT (Days)</th>
+        </tr>
+        <%
+            ResolveComplaint resolveData = new ResolveComplaint();
+            List<Resolve> records = resolveData.ResolvedRecords();
+            
+            for (ResolveComplaint record : records) {
+        %>
+                <tr style="background-color: <%= record.getColor() %>;">
+                    <td><%= record.getResolveId() %></td>
+                    <td><%= record.getComplaintId() %></td>
+                    <td><%= record.getComplaintDate() %></td>
+                    <td><%= record.getResolveDate() %></td>
+                    <td><%= record.getResolvedBy() %></td>
+                    <td><%= record.getComments() %></td>
+                    <td><%= record.getTat() %></td>
+                </tr>
+        <%
+            }
+        %>
+    </table>
+</body>
+</html>

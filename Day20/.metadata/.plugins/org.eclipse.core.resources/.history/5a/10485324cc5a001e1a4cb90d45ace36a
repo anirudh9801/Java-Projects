@@ -1,0 +1,8 @@
+package com.java.hotel;
+
+import java.sql.SQLException;
+import java.util.List;
+
+public interface CustomerDAO {
+	List<Customer> showCustomer() throws ClassNotFoundException, SQLException;
+}

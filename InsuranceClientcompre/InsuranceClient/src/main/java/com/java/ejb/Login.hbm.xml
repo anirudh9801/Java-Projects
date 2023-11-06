@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Oct 24, 2023, 3:29:59 PM by Hibernate Tools 3.6.2.Final -->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class dynamic-insert="false" dynamic-update="false" mutable="true" name="com.java.ejb.Login" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="authentication">
+        <id name="authId" type="int">
+            <column name="AUTHID"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="custId" type="int">
+            <column name="CUSTID"/>
+        </property>
+        <property name="username" type="string">
+            <column name="USERNAME"/>
+        </property>
+        <property name="Passcode" type="string">
+            <column name="PASSCODE"/>
+        </property>
+        <property name="otp" type="string">
+            <column name="OTP"/>
+        </property>
+        <property name="status" type="string">
+            <column name="STATUS"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,80 @@
+package com.java.jsp;
+
+import java.io.Serializable;
+
+public class Login implements Serializable {
+    private int authId;
+    private String uhid;
+    private String username;
+    private String passcode; // Corrected the variable name
+    private String otp;
+    private String status;
+
+    public int getAuthId() {
+        return authId;
+    }
+
+    public void setAuthId(int authId) {
+        this.authId = authId;
+    }
+
+    public  String getUhid() { // Corrected the method name
+        return uhid;
+    }
+
+    public void setUhid(String uhid) { // Corrected the method name
+        this.uhid = uhid;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPasscode() {
+        return passcode;
+    }
+
+    public void setPasscode(String passcode) {
+        this.passcode = passcode; // Corrected the variable name
+    }
+
+    public String getOtp() {
+        return otp;
+    }
+
+    public void setOtp(String otp) {
+        this.otp = otp;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public Login(int authId, int uhid, String username, String passcode, String otp, String status) {
+        super();
+        this.authId = authId;
+        this.uhid = uhid;
+        this.username = username;
+        this.passcode = passcode;
+        this.otp = otp;
+        this.status = status;
+    }
+
+    public Login() {
+        super();
+    }
+
+    @Override
+    public String toString() {
+        return "Login [authId=" + authId + ", uhid=" + uhid + ", username=" + username + ", passcode=" + passcode
+                + ", otp=" + otp + ", status=" + status + "]";
+    }
+}

@@ -1,0 +1,6 @@
+package com.java.customer;
+
+public interface CreateAccountDAO {
+	
+
+}

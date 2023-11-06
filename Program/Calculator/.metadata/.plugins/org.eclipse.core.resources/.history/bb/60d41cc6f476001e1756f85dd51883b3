@@ -1,0 +1,19 @@
+package com.java.jsp;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+public class CalculationDaoImpl implements CalculationDao{
+	SessionFactory sf;
+	Session session;
+	@Override
+	public void saveCalculation(Calculation calculation) {
+		sf = SessionHelper.getConnection();
+		session = sf.openSession();
+		Criteria cr = session.createCriteria(Calculation.class);
+		
+	}
+	
+
+
+}

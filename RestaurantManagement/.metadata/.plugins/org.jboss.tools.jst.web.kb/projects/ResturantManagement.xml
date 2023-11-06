@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-coyote.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/ecj-4.6.3.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-util.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-ant.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/jasper-el.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/hk2-api/3.0.4/hk2-api-3.0.4.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-jdbc.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-util-scan.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-fr.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/com/sun/faces/jsf-api/2.2.20/jsf-api-2.2.20.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/jaspic-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-dbcp.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/annotations-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/servlet-api.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/hk2-locator/3.0.4/hk2-locator-3.0.4.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/core/jersey-server/3.1.3/jersey-server-3.1.3.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-ja.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/3.1.3/jersey-hk2-3.1.3.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-tribes.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/el-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/websocket-api.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+  <path value="/ResturantManagement/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="ResturantManagement"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/anirudhm/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.4.Final/hibernate-commons-annotations-4.0.4.Final.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/3.1.3/jersey-container-servlet-core-3.1.3.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/jsp-api.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-websocket.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-ha.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/hk2-utils/3.0.4/hk2-utils-3.0.4.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/core/jersey-common/3.1.3/jersey-common-3.1.3.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/3.0.4/aopalliance-repackaged-3.0.4.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="ResturantManagement"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="D:/apache-tomcat-8.5.42/lib/jasper.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/core/jersey-client/3.1.3/jersey-client-3.1.3.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-ru.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-storeconfig.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-es.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-jni.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/com/sun/faces/jsf-impl/2.2.14/jsf-impl-2.2.14.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/html_basic.tld" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/jsf_core.tld" project="ResturantManagement"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/mojarra_ext.taglib.xml" project="ResturantManagement"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/mojarra_ext.tld" project="ResturantManagement"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="ResturantManagement"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="ResturantManagement"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="ResturantManagement"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="ResturantManagement"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="ResturantManagement"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="ResturantManagement"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="ResturantManagement"/>
+    </library>
+   </libraries>
+  </path>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification">
+   <linked-resource declaration="true"
+    name="%1;%2;%3;%4;%5;%6;%7;%8;%9;%10;%11;%12;%13;%14;%15;%16;%17;%18;%19;%20;%21;%22;" path="%0"/>
+  </core>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="19" name="%23" offset="1521" path="%24"/>
+   <linked-el length="40" name="%25" offset="949" path="%26"/>
+   <linked-el length="22" name="%27" offset="523" path="%28"/>
+   <linked-el length="24" name="%29" offset="549" path="%30"/>
+   <linked-el length="13" name="%31" offset="2321" path="%32"/>
+   <linked-el length="13" name="%31" offset="2300" path="%33"/>
+   <linked-el length="20" name="%34" offset="255" path="%35"/>
+   <linked-el length="20" name="%36" offset="803" path="%32"/>
+   <linked-el length="45" name="%36" offset="2555" path="%33"/>
+   <linked-el length="20" name="%36" offset="782" path="%33"/>
+   <linked-el length="45" name="%36" offset="2576" path="%32"/>
+   <linked-el length="26" name="%37" offset="553" path="%38"/>
+   <linked-el length="15" name="%39" offset="1261" path="%24"/>
+   <linked-el length="18" name="%40" offset="255" path="%41"/>
+   <linked-el length="30" name="%42" offset="758" path="%38"/>
+   <linked-el length="36" name="%43" offset="799" path="%44"/>
+   <linked-el length="36" name="%43" offset="863" path="%44"/>
+   <linked-el length="23" name="%43" offset="970" path="%45"/>
+   <linked-el length="34" name="%43" offset="1035" path="%45"/>
+   <linked-el length="29" name="%43" offset="523" path="%46"/>
+   <linked-el length="23" name="%43" offset="393" path="%46"/>
+   <linked-el length="45" name="%43" offset="2576" path="%32"/>
+   <linked-el length="34" name="%43" offset="461" path="%46"/>
+   <linked-el length="19" name="%43" offset="1181" path="%45"/>
+   <linked-el length="31" name="%43" offset="2447" path="%24"/>
+   <linked-el length="31" name="%43" offset="2544" path="%24"/>
+   <linked-el length="31" name="%43" offset="2641" path="%24"/>
+   <linked-el length="45" name="%43" offset="2555" path="%33"/>
+   <linked-el length="31" name="%43" offset="2738" path="%24"/>
+   <linked-el length="28" name="%43" offset="727" path="%44"/>
+   <linked-el length="22" name="%43" offset="983" path="%44"/>
+   <linked-el length="30" name="%43" offset="2158" path="%24"/>
+   <linked-el length="30" name="%43" offset="2254" path="%24"/>
+   <linked-el length="31" name="%43" offset="2350" path="%24"/>
+   <linked-el length="40" name="%43" offset="1097" path="%45"/>
+   <linked-el length="19" name="%43" offset="607" path="%46"/>
+   <linked-el length="21" name="%47" offset="1956" path="%48"/>
+   <linked-el length="21" name="%47" offset="1956" path="%49"/>
+   <linked-el length="27" name="%50" offset="655" path="%38"/>
+   <linked-el length="30" name="%50" offset="758" path="%38"/>
+   <linked-el length="26" name="%50" offset="553" path="%38"/>
+   <linked-el length="25" name="%50" offset="471" path="%26"/>
+   <linked-el length="27" name="%50" offset="861" path="%38"/>
+   <linked-el length="24" name="%50" offset="518" path="%45"/>
+   <linked-el length="28" name="%51" offset="750" path="%30"/>
+   <linked-el length="19" name="%52" offset="1410" path="%53"/>
+   <linked-el length="24" name="%54" offset="754" path="%46"/>
+   <linked-el length="22" name="%55" offset="487" path="%56"/>
+   <linked-el length="22" name="%55" offset="480" path="%57"/>
+   <linked-el length="21" name="%55" offset="741" path="%56"/>
+   <linked-el length="21" name="%55" offset="1790" path="%26"/>
+   <linked-el length="22" name="%55" offset="641" path="%45"/>
+   <linked-el length="22" name="%55" offset="1536" path="%26"/>
+   <linked-el length="21" name="%55" offset="535" path="%44"/>
+   <linked-el length="27" name="%55" offset="282" path="%44"/>
+   <linked-el length="19" name="%58" offset="1296" path="%49"/>
+   <linked-el length="23" name="%58" offset="1797" path="%59"/>
+   <linked-el length="23" name="%58" offset="1797" path="%48"/>
+   <linked-el length="17" name="%58" offset="666" path="%49"/>
+   <linked-el length="17" name="%58" offset="986" path="%49"/>
+   <linked-el length="40" name="%58" offset="2322" path="%48"/>
+   <linked-el length="17" name="%58" offset="508" path="%49"/>
+   <linked-el length="17" name="%58" offset="1139" path="%59"/>
+   <linked-el length="23" name="%58" offset="1459" path="%59"/>
+   <linked-el length="19" name="%58" offset="1296" path="%48"/>
+   <linked-el length="17" name="%58" offset="666" path="%48"/>
+   <linked-el length="17" name="%58" offset="986" path="%48"/>
+   <linked-el length="23" name="%58" offset="1797" path="%49"/>
+   <linked-el length="25" name="%58" offset="1628" path="%48"/>
+   <linked-el length="17" name="%58" offset="508" path="%59"/>
+   <linked-el length="21" name="%58" offset="826" path="%59"/>
+   <linked-el length="21" name="%58" offset="1956" path="%48"/>
+   <linked-el length="17" name="%58" offset="1139" path="%49"/>
+   <linked-el length="23" name="%58" offset="1459" path="%49"/>
+   <linked-el length="40" name="%58" offset="2219" path="%48"/>
+   <linked-el length="21" name="%58" offset="826" path="%49"/>
+   <linked-el length="19" name="%58" offset="1296" path="%59"/>
+   <linked-el length="25" name="%58" offset="1628" path="%49"/>
+   <linked-el length="17" name="%58" offset="1139" path="%48"/>
+   <linked-el length="23" name="%58" offset="1459" path="%48"/>
+   <linked-el length="21" name="%58" offset="826" path="%48"/>
+   <linked-el length="21" name="%58" offset="1956" path="%49"/>
+   <linked-el length="17" name="%58" offset="508" path="%48"/>
+   <linked-el length="25" name="%58" offset="1628" path="%59"/>
+   <linked-el length="17" name="%58" offset="666" path="%59"/>
+   <linked-el length="17" name="%58" offset="986" path="%59"/>
+   <linked-el length="22" name="%60" offset="487" path="%56"/>
+   <linked-el length="36" name="%60" offset="863" path="%44"/>
+   <linked-el length="39" name="%60" offset="354" path="%44"/>
+   <linked-el length="21" name="%60" offset="741" path="%56"/>
+   <linked-el length="21" name="%60" offset="1790" path="%26"/>
+   <linked-el length="22" name="%60" offset="1536" path="%26"/>
+   <linked-el length="17" name="%60" offset="1890" path="%26"/>
+   <linked-el length="39" name="%60" offset="1609" path="%26"/>
+   <linked-el length="34" name="%60" offset="627" path="%56"/>
+   <linked-el length="34" name="%60" offset="421" path="%44"/>
+   <linked-el length="39" name="%60" offset="560" path="%56"/>
+   <linked-el length="17" name="%60" offset="624" path="%44"/>
+   <linked-el length="34" name="%60" offset="1676" path="%26"/>
+   <linked-el length="22" name="%60" offset="480" path="%57"/>
+   <linked-el length="39" name="%60" offset="544" path="%57"/>
+   <linked-el length="27" name="%60" offset="608" path="%57"/>
+   <linked-el length="22" name="%60" offset="641" path="%45"/>
+   <linked-el length="39" name="%60" offset="705" path="%45"/>
+   <linked-el length="33" name="%60" offset="772" path="%45"/>
+   <linked-el length="21" name="%60" offset="535" path="%44"/>
+   <linked-el length="27" name="%60" offset="282" path="%44"/>
+   <linked-el length="40" name="%60" offset="1097" path="%45"/>
+   <linked-el length="9" name="%60" offset="3732" path="%0"/>
+   <linked-el length="17" name="%60" offset="871" path="%45"/>
+   <linked-el length="18" name="%61" offset="1784" path="%24"/>
+   <linked-el length="36" name="%62" offset="799" path="%44"/>
+   <linked-el length="17" name="%63" offset="624" path="%44"/>
+   <linked-el length="36" name="%63" offset="863" path="%44"/>
+   <linked-el length="17" name="%63" offset="1890" path="%26"/>
+   <linked-el length="40" name="%63" offset="1097" path="%45"/>
+   <linked-el length="17" name="%63" offset="871" path="%45"/>
+   <linked-el length="25" name="%64" offset="471" path="%26"/>
+   <linked-el length="24" name="%64" offset="518" path="%45"/>
+   <linked-el length="30" name="%65" offset="591" path="%26"/>
+   <linked-el length="24" name="%65" offset="1283" path="%26"/>
+   <linked-el length="16" name="%66" offset="380" path="%53"/>
+   <linked-el length="44" name="%67" offset="519" path="%35"/>
+   <linked-el length="38" name="%67" offset="1293" path="%28"/>
+   <linked-el length="42" name="%67" offset="523" path="%32"/>
+   <linked-el length="40" name="%67" offset="696" path="%68"/>
+   <linked-el length="15" name="%69" offset="349" path="%49"/>
+   <linked-el length="15" name="%69" offset="349" path="%59"/>
+   <linked-el length="15" name="%69" offset="349" path="%48"/>
+   <linked-el length="27" name="%70" offset="655" path="%38"/>
+   <linked-el length="18" name="%71" offset="667" path="%46"/>
+   <linked-el length="25" name="%72" offset="649" path="%30"/>
+   <linked-el length="12" name="%73" offset="754" path="%24"/>
+   <linked-el length="27" name="%74" offset="877" path="%26"/>
+   <linked-el length="26" name="%74" offset="1155" path="%26"/>
+   <linked-el length="13" name="%75" offset="1330" path="%32"/>
+   <linked-el length="13" name="%75" offset="1309" path="%33"/>
+   <linked-el length="27" name="%76" offset="877" path="%26"/>
+   <linked-el length="26" name="%76" offset="1155" path="%26"/>
+   <linked-el length="40" name="%76" offset="949" path="%26"/>
+   <linked-el length="42" name="%76" offset="1017" path="%26"/>
+   <linked-el length="24" name="%77" offset="549" path="%30"/>
+   <linked-el length="25" name="%77" offset="649" path="%30"/>
+   <linked-el length="28" name="%77" offset="750" path="%30"/>
+   <linked-el length="25" name="%77" offset="851" path="%30"/>
+   <linked-el length="39" name="%78" offset="544" path="%57"/>
+   <linked-el length="39" name="%78" offset="354" path="%44"/>
+   <linked-el length="39" name="%78" offset="705" path="%45"/>
+   <linked-el length="39" name="%78" offset="1609" path="%26"/>
+   <linked-el length="39" name="%78" offset="560" path="%56"/>
+   <linked-el length="25" name="%79" offset="1628" path="%49"/>
+   <linked-el length="25" name="%79" offset="1628" path="%48"/>
+   <linked-el length="25" name="%79" offset="1628" path="%59"/>
+   <linked-el length="24" name="%80" offset="754" path="%46"/>
+   <linked-el length="37" name="%80" offset="899" path="%46"/>
+   <linked-el length="24" name="%80" offset="829" path="%46"/>
+   <linked-el length="13" name="%81" offset="632" path="%53"/>
+   <linked-el length="15" name="%82" offset="1830" path="%32"/>
+   <linked-el length="15" name="%82" offset="1809" path="%33"/>
+   <linked-el length="11" name="%83" offset="1558" path="%33"/>
+   <linked-el length="11" name="%83" offset="1579" path="%32"/>
+   <linked-el length="12" name="%84" offset="2054" path="%33"/>
+   <linked-el length="12" name="%84" offset="2075" path="%32"/>
+   <linked-el length="17" name="%85" offset="1399" path="%86"/>
+   <linked-el length="17" name="%85" offset="1399" path="%87"/>
+   <linked-el length="24" name="%88" offset="516" path="%89"/>
+   <linked-el length="15" name="%90" offset="886" path="%53"/>
+   <linked-el length="26" name="%91" offset="518" path="%68"/>
+   <linked-el length="26" name="%91" offset="843" path="%28"/>
+   <linked-el length="23" name="%92" offset="1459" path="%48"/>
+   <linked-el length="23" name="%92" offset="1459" path="%59"/>
+   <linked-el length="23" name="%92" offset="1459" path="%49"/>
+   <linked-el length="21" name="%93" offset="826" path="%48"/>
+   <linked-el length="21" name="%93" offset="826" path="%59"/>
+   <linked-el length="21" name="%93" offset="826" path="%49"/>
+   <linked-el length="17" name="%94" offset="1399" path="%86"/>
+   <linked-el length="17" name="%94" offset="1399" path="%87"/>
+   <linked-el length="24" name="%95" offset="516" path="%89"/>
+   <linked-el length="24" name="%95" offset="627" path="%89"/>
+   <linked-el length="35" name="%95" offset="690" path="%89"/>
+   <linked-el length="34" name="%96" offset="1035" path="%45"/>
+   <linked-el length="34" name="%96" offset="461" path="%46"/>
+   <linked-el length="19" name="%97" offset="1296" path="%59"/>
+   <linked-el length="19" name="%97" offset="1296" path="%49"/>
+   <linked-el length="19" name="%97" offset="1296" path="%48"/>
+   <linked-el length="23" name="%98" offset="680" path="%28"/>
+   <linked-el length="40" name="%99" offset="2322" path="%48"/>
+   <linked-el length="17" name="%99" offset="508" path="%49"/>
+   <linked-el length="17" name="%99" offset="508" path="%48"/>
+   <linked-el length="40" name="%99" offset="2219" path="%48"/>
+   <linked-el length="17" name="%99" offset="508" path="%59"/>
+   <linked-el length="19" name="%100" offset="1181" path="%45"/>
+   <linked-el length="19" name="%100" offset="607" path="%46"/>
+   <linked-el length="32" name="%101" offset="509" path="%41"/>
+   <linked-el length="29" name="%101" offset="1310" path="%35"/>
+   <linked-el length="29" name="%101" offset="1104" path="%35"/>
+   <linked-el length="40" name="%102" offset="2322" path="%48"/>
+   <linked-el length="37" name="%102" offset="899" path="%46"/>
+   <linked-el length="40" name="%102" offset="2219" path="%48"/>
+   <linked-el length="23" name="%103" offset="970" path="%45"/>
+   <linked-el length="28" name="%103" offset="727" path="%44"/>
+   <linked-el length="22" name="%103" offset="983" path="%44"/>
+   <linked-el length="23" name="%103" offset="393" path="%46"/>
+   <linked-el length="38" name="%104" offset="666" path="%26"/>
+   <linked-el length="14" name="%105" offset="517" path="%24"/>
+   <linked-el length="24" name="%106" offset="829" path="%46"/>
+   <linked-el length="17" name="%107" offset="666" path="%48"/>
+   <linked-el length="17" name="%107" offset="666" path="%59"/>
+   <linked-el length="17" name="%107" offset="666" path="%49"/>
+   <linked-el length="26" name="%108" offset="631" path="%68"/>
+   <linked-el length="26" name="%108" offset="1013" path="%28"/>
+   <linked-el length="19" name="%109" offset="1410" path="%53"/>
+   <linked-el length="13" name="%109" offset="2321" path="%32"/>
+   <linked-el length="13" name="%109" offset="1309" path="%33"/>
+   <linked-el length="45" name="%109" offset="2576" path="%32"/>
+   <linked-el length="11" name="%109" offset="1558" path="%33"/>
+   <linked-el length="22" name="%109" offset="1049" path="%33"/>
+   <linked-el length="19" name="%109" offset="1521" path="%24"/>
+   <linked-el length="12" name="%109" offset="754" path="%24"/>
+   <linked-el length="20" name="%109" offset="782" path="%33"/>
+   <linked-el length="15" name="%109" offset="1261" path="%24"/>
+   <linked-el length="14" name="%109" offset="1006" path="%24"/>
+   <linked-el length="15" name="%109" offset="1809" path="%33"/>
+   <linked-el length="13" name="%109" offset="1330" path="%32"/>
+   <linked-el length="12" name="%109" offset="2054" path="%33"/>
+   <linked-el length="11" name="%109" offset="1579" path="%32"/>
+   <linked-el length="22" name="%109" offset="1070" path="%32"/>
+   <linked-el length="18" name="%109" offset="1784" path="%24"/>
+   <linked-el length="20" name="%109" offset="2041" path="%24"/>
+   <linked-el length="20" name="%109" offset="803" path="%32"/>
+   <linked-el length="15" name="%109" offset="1830" path="%32"/>
+   <linked-el length="15" name="%109" offset="886" path="%53"/>
+   <linked-el length="45" name="%109" offset="2555" path="%33"/>
+   <linked-el length="13" name="%109" offset="2300" path="%33"/>
+   <linked-el length="19" name="%109" offset="1146" path="%53"/>
+   <linked-el length="13" name="%109" offset="632" path="%53"/>
+   <linked-el length="12" name="%109" offset="2075" path="%32"/>
+   <linked-el length="20" name="%110" offset="1395" path="%26"/>
+   <linked-el length="10" name="%111" offset="3516" path="%0"/>
+   <linked-el length="17" name="%112" offset="785" path="%68"/>
+   <linked-el length="17" name="%112" offset="774" path="%89"/>
+   <linked-el length="22" name="%113" offset="1049" path="%33"/>
+   <linked-el length="22" name="%113" offset="1070" path="%32"/>
+   <linked-el length="18" name="%114" offset="667" path="%46"/>
+   <linked-el length="23" name="%115" offset="1180" path="%28"/>
+   <linked-el length="33" name="%116" offset="732" path="%26"/>
+   <linked-el length="30" name="%116" offset="591" path="%26"/>
+   <linked-el length="35" name="%116" offset="690" path="%89"/>
+   <linked-el length="24" name="%116" offset="1283" path="%26"/>
+   <linked-el length="20" name="%116" offset="1395" path="%26"/>
+   <linked-el length="38" name="%116" offset="666" path="%26"/>
+   <linked-el length="19" name="%117" offset="1146" path="%53"/>
+   <linked-el length="23" name="%118" offset="1797" path="%49"/>
+   <linked-el length="23" name="%118" offset="1797" path="%59"/>
+   <linked-el length="23" name="%118" offset="1797" path="%48"/>
+   <linked-el length="17" name="%119" offset="1139" path="%48"/>
+   <linked-el length="17" name="%119" offset="1139" path="%59"/>
+   <linked-el length="17" name="%119" offset="1139" path="%49"/>
+   <linked-el length="27" name="%120" offset="861" path="%38"/>
+   <linked-el length="14" name="%121" offset="1006" path="%24"/>
+   <linked-el length="20" name="%122" offset="2041" path="%24"/>
+   <linked-el length="21" name="%123" offset="523" path="%33"/>
+   <linked-el length="17" name="%124" offset="986" path="%48"/>
+   <linked-el length="17" name="%124" offset="986" path="%59"/>
+   <linked-el length="17" name="%124" offset="986" path="%49"/>
+   <linked-el length="25" name="%125" offset="851" path="%30"/>
+   <linked-el length="24" name="%126" offset="627" path="%89"/>
+   <linked-el length="26" name="%127" offset="631" path="%68"/>
+   <linked-el length="26" name="%127" offset="518" path="%68"/>
+   <linked-el length="26" name="%127" offset="1013" path="%28"/>
+   <linked-el length="22" name="%127" offset="523" path="%28"/>
+   <linked-el length="26" name="%127" offset="843" path="%28"/>
+   <linked-el length="23" name="%127" offset="680" path="%28"/>
+   <linked-el length="23" name="%127" offset="1180" path="%28"/>
+   <linked-el length="11" name="%127" offset="3299" path="%0"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="e.restaurantid" value="%23"/>
+  <alias path="customerDao.employLocaleCodeChanged" value="%25"/>
+  <alias path="customer.cusname" value="%27"/>
+  <alias path="vendorFound.venname" value="%29"/>
+  <alias
+   path="\ResturantManagement\src\main\java\com\java\rms\Customer.java" value="%4"/>
+  <alias path="com.java.rms.CustomerDaoImpl" value="%5"/>
+  <alias path="e.rating" value="%31"/>
+  <alias path="loggedCustomer" value="%34"/>
+  <alias
+   path="/ResturantManagement/src/main/webapp/CustomerWalletShow.jsp" value="%53"/>
+  <alias path="loggedVendor" value="%40"/>
+  <alias path="menuDao" value="%43"/>
+  <alias path="/ResturantManagement/src/main/webapp/ShowRestaurant.jsp" value="%32"/>
+  <alias path="/ResturantManagement/pom.xml" value="%87"/>
+  <alias path="vendorFound.venusername" value="%51"/>
+  <alias path="com.java.rms.Restaurant" value="%22"/>
+  <alias path="e.walletSource" value="%52"/>
+  <alias path="orders.ordquantity" value="%54"/>
+  <alias path="resDao.localCode" value="%55"/>
+  <alias path="/ResturantManagement/src/main/webapp/ShowResMenu.jsp" value="%57"/>
+  <alias path="order" value="%58"/>
+  <alias
+   path="\ResturantManagement\src\main\java\com\java\rms\OrdersDaoImpl.java" value="%1"/>
+  <alias path="menuDao.menuOptionChanged" value="%62"/>
+  <alias path="/ResturantManagement/src/main/webapp/PlaceOrderFinal.jsp" value="%56"/>
+  <alias path="resDao.resId" value="%63"/>
+  <alias path="customerFound.cusid" value="%64"/>
+  <alias path="walletList" value="%66"/>
+  <alias path="menu.menprice" value="%71"/>
+  <alias
+   path="\ResturantManagement\src\main\java\com\java\rms\VendorDaoImpl.java" value="%7"/>
+  <alias path="e.menid" value="%73"/>
+  <alias path="customerDao.localCode" value="%74"/>
+  <alias
+   path="\ResturantManagement\src\main\java\com\java\rms\CustomerController.java" value="%11"/>
+  <alias path="com.java.rms.CustomerController" value="%13"/>
+  <alias path="vendorFound" value="%77"/>
+  <alias path="/ResturantManagement/src/main/webapp/VendorLogin.jsp" value="%89"/>
+  <alias path="orders" value="%80"/>
+  <alias path="com.java.rms.Menu" value="%20"/>
+  <alias path="/ResturantManagement/src/main/webapp/PlaceOrderNew.jsp" value="%45"/>
+  <alias path="e.mobileNo" value="%82"/>
+  <alias path="e.city" value="%83"/>
+  <alias path="jersey.version" value="%85"/>
+  <alias path="customer.cususername" value="%91"/>
+  <alias path="vendor" value="%95"/>
+  <alias path="menuDao.menuLocaleCodeChanged" value="%96"/>
+  <alias
+   path="/ResturantManagement/target/m2e-wtp/web-resources/META-INF/maven/infinite/ResturantManagement/pom.xml" value="%86"/>
+  <alias path="order.orddate" value="%97"/>
+  <alias path="menuDao.menuId" value="%100"/>
+  <alias path="/ResturantManagement/src/main/webapp/AddCustomer.jsp" value="%28"/>
+  <alias path="menuDao.localCode" value="%103"/>
+  <alias path="vendorDao.employLocaleCodeChanged" value="%104"/>
+  <alias
+   path="/ResturantManagement/src/main/webapp/WEB-INF/faces-config.xml" value="%0"/>
+  <alias path="com.java.rms.Vendor" value="%2"/>
+  <alias path="menuList" value="%105"/>
+  <alias path="/ResturantManagement/src/main/webapp/venPendingOrder.jsp" value="%48"/>
+  <alias path="order.cusid" value="%107"/>
+  <alias path="customer.cuspassword" value="%108"/>
+  <alias path="/ResturantManagement/src/main/webapp/VendorDashboard.jsp" value="%41"/>
+  <alias path="e" value="%109"/>
+  <alias path="daoImpl" value="%111"/>
+  <alias path="errorMessage" value="%112"/>
+  <alias path="menu" value="%114"/>
+  <alias path="/ResturantManagement/src/main/webapp/Dashboard.jsp" value="%35"/>
+  <alias path="customer.cusemail" value="%115"/>
+  <alias path="/ResturantManagement/src/main/webapp/CustomerInfo.jsp" value="%38"/>
+  <alias
+   path="\ResturantManagement\src\main\java\com\java\rms\MenuDaoImpl.java" value="%10"/>
+  <alias path="vendorDao" value="%116"/>
+  <alias path="order.menid" value="%119"/>
+  <alias path="e.menitem" value="%121"/>
+  <alias path="restaurantsList" value="%123"/>
+  <alias path="order.venid" value="%124"/>
+  <alias
+   path="\ResturantManagement\src\main\java\com\java\rms\Vendor.java" value="%18"/>
+  <alias path="vendorFound.venemail" value="%125"/>
+  <alias path="/ResturantManagement/src/main/webapp/OrderHistory.jsp" value="%59"/>
+  <alias
+   path="/ResturantManagement/src/main/webapp/ShowRestaurantNew.jsp" value="%33"/>
+  <alias path="e.restaurant_ID" value="%36"/>
+  <alias path="customerFound.cusname" value="%37"/>
+  <alias path="e.menprice" value="%39"/>
+  <alias path="customerFound.cususername" value="%42"/>
+  <alias path="/ResturantManagement/src/main/webapp/Dummy.jsp" value="%44"/>
+  <alias path="order.ordstatus" value="%47"/>
+  <alias path="com.java.rms.Customer" value="%17"/>
+  <alias path="/ResturantManagement/src/main/webapp/ShowMenu.jsp" value="%24"/>
+  <alias path="customerFound" value="%50"/>
+  <alias
+   path="/ResturantManagement/src/main/webapp/PlaceOrderMenuShow.jsp" value="%46"/>
+  <alias path="resDao" value="%60"/>
+  <alias path="e.mencalories" value="%61"/>
+  <alias path="/ResturantManagement/src/main/webapp/VendorInfo.jsp" value="%30"/>
+  <alias path="vendorDao.localCode" value="%65"/>
+  <alias path="com.java.rms.MenuDaoImpl" value="%3"/>
+  <alias path="customerController" value="%67"/>
+  <alias path="orderList" value="%69"/>
+  <alias path="customerFound.cusphnno" value="%70"/>
+  <alias path="vendorFound.venphnno" value="%72"/>
+  <alias
+   path="\ResturantManagement\src\main\java\com\java\rms\Menu.java" value="%8"/>
+  <alias path="com.java.rms.OrdersDaoImpl" value="%9"/>
+  <alias path="e.branch" value="%75"/>
+  <alias path="customerDao" value="%76"/>
+  <alias path="resDao.restaurantLocaleCodeChanged" value="%78"/>
+  <alias path="order.ordbillamount" value="%79"/>
+  <alias
+   path="\ResturantManagement\src\main\java\com\java\rms\Restaurant.java" value="%14"/>
+  <alias
+   path="\ResturantManagement\src\main\java\com\java\rms\RestaurantDaoImpl.java" value="%16"/>
+  <alias path="e.custId" value="%81"/>
+  <alias path="e.email" value="%84"/>
+  <alias path="vendor.venusername" value="%88"/>
+  <alias path="e.walletId" value="%90"/>
+  <alias path="/ResturantManagement/src/main/webapp/PlaceOrder.jsp" value="%26"/>
+  <alias path="/ResturantManagement/src/main/webapp/CustomerLogin.jsp" value="%68"/>
+  <alias path="order.ordquantity" value="%92"/>
+  <alias path="order.walsource" value="%93"/>
+  <alias
+   path="\ResturantManagement\src\main\java\com\java\rms\Orders.java" value="%12"/>
+  <alias path="jersey" value="%94"/>
+  <alias path="com.java.rms.RestaurantDaoImpl" value="%15"/>
+  <alias path="/ResturantManagement/src/main/webapp/PendingOrder.jsp" value="%49"/>
+  <alias path="customer.cusphnno" value="%98"/>
+  <alias path="order.ordid" value="%99"/>
+  <alias path="ordersHis" value="%101"/>
+  <alias path="ordersDao" value="%102"/>
+  <alias
+   path="\ResturantManagement\src\main\java\com\java\rms\CustomerDaoImpl.java" value="%21"/>
+  <alias path="orders.ordcomments" value="%106"/>
+  <alias path="vendorDao.venId" value="%110"/>
+  <alias path="com.java.rms.VendorDaoImpl" value="%6"/>
+  <alias path="e.restaurant_Name" value="%113"/>
+  <alias path="e.walletAmount" value="%117"/>
+  <alias path="order.ordcomments" value="%118"/>
+  <alias path="customerFound.cusemail" value="%120"/>
+  <alias path="e.menspeciality" value="%122"/>
+  <alias path="com.java.rms.Orders" value="%19"/>
+  <alias path="vendor.venpassword" value="%126"/>
+  <alias path="customer" value="%127"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

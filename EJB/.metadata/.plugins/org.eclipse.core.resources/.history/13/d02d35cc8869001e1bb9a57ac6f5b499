@@ -1,0 +1,14 @@
+package com.java.ejb;
+
+import javax.naming.InitialContext;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		CalculationBeanRemote service = 
+				(CalculationBeanRemote) new InitialContext().lookup("CalculationBean/remote");
+		
+	}
+
+
+}

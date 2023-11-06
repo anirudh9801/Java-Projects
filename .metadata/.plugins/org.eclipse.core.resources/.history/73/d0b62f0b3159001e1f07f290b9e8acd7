@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+  <form method="post"  action="OtpValidationServlet">
+	  <center>
+		  User Name:
+			<input type="text" name="userName" /> <br/><Br/>
+		  OTP:
+		  <input type="number" name="otp"/> <br/><Br/>
+		  <input type="submit" value="Create Account" />
+	  </center>
+  </form>
+</body>
+</html>

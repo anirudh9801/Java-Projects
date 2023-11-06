@@ -1,0 +1,60 @@
+package com.java.Prog;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListProcessor {
+    
+    // Method to sum the elements in an ArrayList using a traditional for loop
+    public int process(List<Integer> numbers) {
+        int total = 0;
+        for (int i = 0; i < numbers.size(); i++) {
+            total += numbers.get(i);
+        }
+        return total;
+    }
+    
+    // Overloaded method to find the average of elements in an ArrayList
+  double process(List<Integer> numbers, boolean calculateAverage) {
+        if (calculateAverage) {
+            int total = process(numbers);
+            return (double) total / numbers.size();
+        } else {
+            return 0.0;
+        }
+    }
+    
+    // Overloaded method to find the maximum value in an ArrayList
+     double process(List<Integer> numbers, boolean findMax) {
+        if (findMax) {
+            int max = Integer.MIN_VALUE;
+            for (int i = 0; i < numbers.size(); i++) {
+                int number = numbers.get(i);
+                if (number > max) {
+                    max = number;
+                }
+            }
+            return max;
+        } else {
+            return 0;
+        }
+    }
+
+    public static void main(String[] args) {
+        ListProcessor processor = new ListProcessor();
+
+        List<Integer> numberList = new ArrayList<>();
+        numberList.add(5);
+        numberList.add(10);
+        numberList.add(15);
+        numberList.add(20);
+
+        int sumResult = processor.process(numberList);
+        double averageResult = processor.process(numberList, true);
+        double maxResult = processor.process(numberList, true);
+
+        System.out.println("Sum: " + sumResult);
+        System.out.println("Average: " + averageResult);
+        System.out.println("Max: " + maxResult);
+    }
+}

@@ -1,0 +1,30 @@
+package com.java.comp;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+public class ResolveComplaint {
+	Connection connection;
+	PreparedStatement pst;
+	public List<ResolveComplaint> ResolvedRecords(){
+		connection=ConnectionHelper.getConnection();
+		String cmd="select * from complaint where complaintID=?";
+		pst=connection.prepareStatement(cmd);
+		ResultSet rs=pst.executeQuery();
+
+        while (resultSet.next()) {
+            String resolveId = resultSet.getString("ResolveID");
+            String complaintId = resultSet.getString("ComplaintID");
+            Timestamp complaintDate = resultSet.getTimestamp("ComplaintDate");
+            Timestamp resolveDate = resultSet.getTimestamp("ResolveDate");
+            String resolvedBy = resultSet.getString("ResolvedBy");
+            String comments = resultSet.getString("Comments");
+	}
+}

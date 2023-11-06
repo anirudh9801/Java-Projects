@@ -1,0 +1,21 @@
+package com.java.ejb;
+
+
+import javax.ejb.Remote;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class InsurenceBean
+ */
+@Stateless
+@Remote(InsurenceBeanRemote.class)
+public class InsurenceBean implements InsurenceBeanRemote {
+
+    /**
+     * Default constructor. 
+     */
+    public InsurenceBean() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

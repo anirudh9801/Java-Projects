@@ -1,0 +1,22 @@
+package com.java.Day2;
+
+import java.util.ArrayList;
+
+
+public class RmvDuplArrLst {
+	public static void main(String[] args) {
+		ArrayList<String> colors = new ArrayList<String>();//creating an Arraylist with duplicate element
+		colors.add("Red"); // Adding the elements in Arraylist
+		colors.add("Blue");
+		colors.add("Blue");
+		colors.add("Black");
+		
+		//Removing the duplicate element using remove() method
+		colors.remove("Blue");
+		// iterating on every elements in colors 
+		for (String str : colors) {
+			System.out.println(str);
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class dynamic-insert="false" dynamic-update="false" mutable="true" name="com.java.hms.Doctors" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="DOCTOR_MASTER">
+        <id name="drid" type="java.lang.String">
+            <column name="Dr_id"/>
+            <generator class="assigned"/>
+        </id>
+        <property generated="never" lazy="false" name="drname" optimistic-lock="true" type="java.lang.String" unique="false">
+            <column name="Dr_name"/>
+        </property>
+        <property generated="never" lazy="false" name="dept" optimistic-lock="true" type="java.lang.String" unique="false">
+            <column name="Dept"/>
+        </property>
+    </class>
+</hibernate-mapping>

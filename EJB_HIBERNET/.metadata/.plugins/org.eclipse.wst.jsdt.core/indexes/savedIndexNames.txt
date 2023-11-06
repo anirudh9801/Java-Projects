@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+D:\EJB_HIBERNET\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1308510977.index
+1599577757.index
+3768392337.index
+3648887988.index
+970111612.index
+880198768.index
+1775945782.index
+3590313636.index

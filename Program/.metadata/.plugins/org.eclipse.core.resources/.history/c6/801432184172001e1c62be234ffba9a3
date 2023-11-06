@@ -1,0 +1,13 @@
+public class MultiplesUptoN {
+	public static void printFirstTenMultiples(int num) {
+		System.out.println("Printing first 10 multiples of " + num);
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(num + " x " + i + " = " + num*i);
+		}
+	}
+	public static void main(String[] args) {
+		// printing multiples of 2 different numbers
+		printFirstTenMultiples(5);
+		printFirstTenMultiples(3);
+	}
+}

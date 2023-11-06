@@ -1,0 +1,35 @@
+<%@page import="com.java.comp.Complaint"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ <h1>Search Results</h1>
+    <% 
+        String complaintID = request.getParameter("complaintID");
+        // Perform a database query or fetch employee details using the employeeId
+        // You may use JDBC or a data access framework like Hibernate here
+        // Employee employee = YourDatabaseClass.getEmployeeById(employeeId);
+
+        // Sample employee data (replace this with actual data retrieval)
+        Complaint comp = new Complaint();
+        comp.setComplaintID(complaintID);
+       
+        if (comp != null) {
+    %>
+    <p>complaint ID: <%= comp.getComplaintID() %></p>
+    <p>complaintType: <%= comp.getComplaintType() %></p>
+    <p>CDescription: <%= comp.getCDescription() %></p>
+    <p>complaintDate : <%= comp.getComplaintDate() %></p>
+    <p>severity: <%= comp.getSeverity() %></p>
+    <p>status: <%= comp.getStatus() %></p>
+    <% } else { %>
+    <p>Employee not found.</p>
+    <% } %>
+    <a href="search.jsp">Back to Search</a>
+</body>
+</html>

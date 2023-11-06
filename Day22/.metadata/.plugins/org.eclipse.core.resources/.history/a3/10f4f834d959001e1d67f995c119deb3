@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ 	<form action="Issue.jsp">
+		<table border="3" align="center">
+		<tr>
+			<th>Id</th>
+			<th>Name</th>
+			<th>Author</th>
+			<th>Edition</th>
+			<th>Department</th>
+			<th>Total Books</th>
+		</tr>
+
+	</table>
+	<input type="submit" value="Issue Book(s)" />
+	</form>
+</body>
+</html>

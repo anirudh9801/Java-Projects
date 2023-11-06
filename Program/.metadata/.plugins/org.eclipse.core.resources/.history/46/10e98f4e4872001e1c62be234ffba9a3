@@ -1,0 +1,38 @@
+package com.java.Prog;
+
+public class ListProcessor {
+
+    // Login method with username and password
+    public boolean login(String username, String password) {
+        // Check if the username and password are valid
+        // In a real application, you would perform authentication logic here
+        return username.equals("user") && password.equals("password");
+    }
+
+    // Login method with email and password
+    public boolean login(String email, String password) {
+        // Check if the email and password are valid
+        // In a real application, you would perform authentication logic here
+        return email.equals("user@example.com") && password.equals("password");
+    }
+
+    public static void main(String[] args) {
+        LoginDemo loginDemo = new LoginDemo();
+
+        // Testing the login methods
+        boolean login1 = loginDemo.login("user", "password");
+        boolean login2 = loginDemo.login("user@example.com", "password");
+
+        if (login1) {
+            System.out.println("Login with username and password successful.");
+        } else {
+            System.out.println("Login with username and password failed.");
+        }
+
+        if (login2) {
+            System.out.println("Login with email and password successful.");
+        } else {
+            System.out.println("Login with email and password failed.");
+        }
+    }
+}

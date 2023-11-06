@@ -1,0 +1,15 @@
+package com.java.Day3;
+
+public class CheckEvenNo {
+	public static void main(String[] args) {
+	        checkEvenNo(7);
+		
+	}
+	
+	public static void checkEvenNo(int number) {
+		if(number%2==0) {
+			throw new IllegalArgumentException(number +"is Odd");
+		}
+	}
+
+}

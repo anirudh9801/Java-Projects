@@ -1,0 +1,49 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Issue Books</title>
+</head>
+<body>
+    <div class="container">
+        <jsp:include page="Menu.jsp" />
+        <h1>Issue Books</h1>
+        <form action="IssueBooksServlet" method="post">
+            <table border="3" align="center">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Edition</th>
+                    <th>Department</th>
+                    <th>Total Books</th>
+                    <th>Select</th>
+                </tr>
+                <c:forEach var="book" items="${booksList}">
+                    <tr>
+                        <td>${book.getId()}</td>
+                        <td>${book.getName()}</td>
+                        <td>${book.getAuthor()}</td>
+                        <td>${book.getEdition()}</td>
+                        <td>${book.getDept()}</td>
+                        <td>${book.getNoOfBooks()}</td>
+                        <td>
+                            <c:choose>
+                                <c:when test="${book.getNoOfBooks() > 0}">
+                                    <input type="checkbox" name="selectedBooks" value="${book.getId()}" />
+                                </c:when>
+                                <c:otherwise>
+                                    <span>Out of stock</span>
+                                </c:otherwise>
+                            </c:choose>
+                        </td>
+                    </tr>
+                </c:forEach>
+            </table>
+            <br />
+            <input type="submit" value="Issue Selected Books" />
+        </form>
+    </div>
+</body>
+</html>

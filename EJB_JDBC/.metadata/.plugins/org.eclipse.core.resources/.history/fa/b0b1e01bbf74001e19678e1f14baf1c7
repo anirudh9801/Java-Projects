@@ -1,0 +1,52 @@
+package com.java.ejb;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class PatientReport {
+    private Connection connection;
+
+    public PatientReport() {
+        try {
+            connection = ConnectionHelper.getConnection(); // Get the database connection using ConnectionHelper
+        } catch (ClassNotFoundException | SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void insertReport(String pid, String testCode, String testName, String testDescription, double cost, String comments) {
+        try {
+            String sql = "INSERT INTO Patient_Report (pid, TestCode, TestName, TestDescription, Cost, Comments) VALUES (?, ?, ?, ?, ?, ?)";
+            PreparedStatement statement = connection.prepareStatement(sql);
+            statement.setString(1, pid);
+            statement.setString(2, testCode);
+            statement.setString(3, testName);
+            statement.setString(4, testDescription);
+            statement.setDouble(5, cost);
+            statement.setString(6, comments);
+            statement.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void close() {
+        try {
+            if (connection != null) {
+                connection.close();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        PatientReport patientReport = new PatientReport();
+
+        // Example of inserting a new report
+        patientReport.insertReport("12345", "TC001", "Blood Test", "Complete blood count", 50.0, "No special comments");
+
+        // Close the connection when done
+        patientReport.close();
+    }
+}

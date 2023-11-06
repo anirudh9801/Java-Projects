@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+  <h:body>
+    <div class="content">
+      <p>Welcome to Menu Page....</p>
+
+      <div class="menu-links">
+        <h:commandLink id="image-link-id" action="ShowDept.xhtml">
+          <h:outputText value="Show Departments" />
+        </h:commandLink>
+
+        <h:commandLink id="image-link-id1" action="EmployShow.xhtml">
+          <h:outputText value="Show Employ" />
+        </h:commandLink>
+      </div>
+    </div>
+  </h:body>
+</html>

@@ -1,0 +1,25 @@
+package com.java.Prog;
+
+public class StringReplace {
+	
+	public static void main(String[] args) {
+		String Original ="Anirudh";
+		String subsstringToReplace ="Kumar";
+		String replacement ="Mehta";
+		
+		String modified = replaceSubstring(Original, subsstringToReplace, replacement);
+		
+		System.out.println("Original : "+Original);
+		System.out.println("Modified : "+modified);
+	
+	}
+	
+	public static String replaceSubstring(String Original,String toReplace, String replacement) {
+		if(!Original.contains(toReplace)) {
+			return Original;
+		}
+		String modified = Original.replaceAll(toReplace, replacement);
+		return modified;
+	}
+
+}

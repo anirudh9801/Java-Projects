@@ -1,0 +1,30 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class ExceptionExample5 {
+    public static void main(String[] args) {
+        try {
+            // Open a file for reading
+            BufferedReader reader = new BufferedReader(new FileReader("example.txt"));
+
+            // Read and process data from the file
+            String line;
+            while ((line = reader.readLine()) != null) {
+                // Attempt to convert each line to an integer and print it
+                try {
+                    int number = Integer.parseInt(line);
+                    System.out.println("Read number: " + number);
+                } catch (NumberFormatException e) {
+                    System.err.println("Error: Unable to parse line as an integer");
+                }
+            }
+
+            // Close the file
+            reader.close();
+
+        } catch (IOException e) {
+            System.err.println("Error: Unable to open or read the file");
+        }
+    }
+}

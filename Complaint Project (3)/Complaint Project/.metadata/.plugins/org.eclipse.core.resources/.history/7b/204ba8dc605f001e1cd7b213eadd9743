@@ -1,0 +1,8 @@
+package com.java.comp;
+
+import java.util.List;
+
+public interface ComplaintDAO {
+List<Complaint> showComplaintDao();
+String addComplaintDao(Complaint comp);
+}

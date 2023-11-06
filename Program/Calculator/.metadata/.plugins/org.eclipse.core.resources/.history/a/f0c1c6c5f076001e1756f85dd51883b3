@@ -1,0 +1,6 @@
+package com.java.jsp;
+
+public class CalculationDao {
+	 void saveCalculation(Calculation calculation);
+
+}

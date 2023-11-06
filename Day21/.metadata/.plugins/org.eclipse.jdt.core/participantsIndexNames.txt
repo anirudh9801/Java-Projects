@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+C:\Users\anirudhm\eclipse-workspace\Day21\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3424540907.index
+\JspBeansDemo\src\main\java
+C:\Users\anirudhm\eclipse-workspace\Day21\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3458693802.index
+\JstlExamples\src\main\java
+C:\Users\anirudhm\eclipse-workspace\Day21\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\523251384.index
+\JstlExamples\src\main\java

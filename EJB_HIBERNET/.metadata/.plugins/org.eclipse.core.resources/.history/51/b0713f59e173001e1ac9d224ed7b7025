@@ -1,0 +1,31 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page pageEncoding="UTF-8" %>
+<%@ taglib prefix="f" uri="http://java.sun.com/jsf/core" %>
+<%@ taglib prefix="h" uri="http://java.sun.com/jsf/html" %>
+
+<f:view>
+    <html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Login Page</title>
+    </head>
+    <body>
+        <h:form id="form">
+            <h2>Login Page</h2>
+
+              <h:outputText value="User Name" />
+            <h:inputText id="username" value="#{loginBean.username}" />
+            <br />
+
+            <h:outputText value="Password" />
+            <h:inputSecret id="password" value="#{loginBean.passcode}" />
+            <br />
+
+            <h:commandButton value="Login" action="#{cImpl.login(loginBean)}" />
+            &nbsp;&nbsp;
+               <h:commandButton type="reset" value="Reset" />
+            
+        </h:form>
+    </body>
+    </html>
+</f:view>

@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+   <body style="background-color:#33475b">
+  
+	 <h:form>
+	 
+	 <b>User Name :</b> 
+	   <h:inputText id="userName"  value="#{login.userName}"/> <br/><br/>
+	  <b> Password : </b>
+	    <h:inputSecret value="#{login.passCode}"/> <br/><br/>
+	    <h:commandButton value="Login" action="#{employDao.validateMe(login)}"/>
+	    <p>
+	    <h:outputLabel value="#{errorMessage}"/>
+	    </p>
+	
+	 </h:form>
+	  </body>
+</html>

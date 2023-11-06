@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.ejb.Remote"/>
+    <fullyQualifiedTypeName name="com.java.ejb.CalcTestRemote"/>
+    <fullyQualifiedTypeName name="javax.faces.event.ActionEvent"/>
+</qualifiedTypeNameHistroy>

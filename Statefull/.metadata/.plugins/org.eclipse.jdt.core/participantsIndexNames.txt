@@ -1,0 +1,5 @@
+INDEX VERSION 1.132
+D:\Statefull\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3081338553.index
+\EjbEntityClient\src\main\java
+D:\Statefull\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2291759443.index
+\EjbCmpEntityClient\src\main\java

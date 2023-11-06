@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.java.ejb.Booking" table="booking">
+        <id name="PolicyId" type="int">
+            <column name="policy_id" />
+            <generator class="increment" />
+        </id>
+        <property name="custId" type="int">
+            <column name="CUSTID" />
+        </property>
+        <property name="PlanId" type="int">
+            <column name="PLANID" />
+        </property>
+        <property name="insuranceId" type="string">
+            <column name="INSURANCEID" />
+        </property>
+        <property name="PremiumAmount" type="string">
+            <column name="PREMIUMAMOUNT" />
+        </property>
+        <property name="Paymode" type="string">
+            <column name="PAYMODE" />
+        </property>
+        <property name="InstallmentAmount" type="double">
+            <column name="INSTALLMENTAMOUNT" />
+        </property>
+        <property name="RegisterDate" type="date">
+            <column name="REGISTERDATE" />
+        </property>
+    </class>
+</hibernate-mapping>

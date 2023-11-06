@@ -1,0 +1,14 @@
+package com.java.junit;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class VendorTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

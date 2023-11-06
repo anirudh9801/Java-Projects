@@ -1,0 +1,141 @@
+package com.java.lib;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class LibraryDaoImpl implements LibraryDAO {
+
+    Connection connection;
+    PreparedStatement pst;
+
+    public boolean checkPassword(String pwd, String retype) {
+        if (pwd.equals(retype)) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public String createUser(LibUsers libUsers) throws ClassNotFoundException, SQLException {
+        connection = ConnectionHelper.getConnection();
+        String encPwd = EncryptPassword.getCode(libUsers.getPassWord());
+        String cmd = "Insert into LibUsers(UserName, Password) values (?,?)";
+        pst = connection.prepareStatement(cmd);
+        pst.setString(1, libUsers.getUserName());
+        pst.setString(2, encPwd);
+        pst.executeUpdate();
+        return "User account Created";
+    }
+
+    @Override
+    public int authenticate(LibUsers libUsers) throws SQLException, ClassNotFoundException {
+        connection = ConnectionHelper.getConnection();
+        String encr = EncryptPassword.getCode(libUsers.getPassWord());
+        String cmd = "select count(*) cnt from LibUsers where userName=? AND Password=?";
+        pst = connection.prepareStatement(cmd);
+        pst.setString(1, libUsers.getUserName());
+        pst.setString(2, encr.trim());
+        ResultSet rs = pst.executeQuery();
+        rs.next();
+        int count = rs.getInt("cnt");
+        return count;
+    }
+
+    @Override
+    public List<Books> searchBooks(String searchType, String searchValue) throws ClassNotFoundException, SQLException {
+        String Sql;
+        boolean isValid = true;
+        if (searchType.equals("id")) {
+            Sql = "select * from books where ID=?";
+        } else if (searchType.equals("bookname")) {
+            Sql = "select * from books where Name=?";
+        } else if (searchType.equals("authorname")) {
+            Sql = "select * from books where Author=?";
+        } else if (searchType.equals("dept")) {
+            Sql = "select * from books where Dept=?";
+        } else {
+            isValid = false;
+            Sql = "select * from books";
+        }
+        connection = ConnectionHelper.getConnection();
+        try {
+            pst = connection.prepareStatement(Sql);
+            if (isValid) {
+                pst.setString(1, searchValue);
+            }
+            ResultSet rs = pst.executeQuery();
+            Books books = null;
+            List<Books> booksList = new ArrayList<Books>();
+            while (rs.next()) {
+                books = new Books();
+                books.setId(rs.getInt("id"));
+                books.setName(rs.getString("name"));
+                books.setAuthor(rs.getString("author"));
+                books.setEdition(rs.getString("edition"));
+                books.setDept(rs.getString("dept"));
+                books.setNoOfBooks(rs.getInt("TotalBooks"));
+                booksList.add(books);
+            }
+            return booksList;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return new ArrayList<Books>();
+        }
+    }
+
+    @Override
+    public String issueBooks(String userName, int bookId) throws SQLException, ClassNotFoundException {
+        Connection connection = null;
+        PreparedStatement stmt = null;
+        
+        try {
+            connection = ConnectionHelper.getConnection();
+            
+            // Check book availability
+            String checkAvailabilitySql = "SELECT * FROM TranBook WHERE BookId = ? AND Username IS NULL";
+            stmt = connection.prepareStatement(checkAvailabilitySql);
+            stmt.setInt(1, bookId);
+            ResultSet availabilityResult = stmt.executeQuery();
+            
+            if (!availabilityResult.next()) {
+                return "Failed to issue the book. The book is not available.";
+            }
+            
+            // Check user existence
+            String checkUserExistenceSql = "SELECT * FROM LibUsers WHERE Username = ?";
+            stmt = connection.prepareStatement(checkUserExistenceSql);
+            stmt.setString(1, userName);
+            ResultSet userResult = stmt.executeQuery();
+            
+            if (!userResult.next()) {
+                return "Failed to issue the book. The user does not exist.";
+            }
+            
+            // Insert issuance record
+            String insertIssuanceSql = "INSERT INTO TranBook (Username, BookId) VALUES (?, ?)";
+            stmt = connection.prepareStatement(insertIssuanceSql);
+            stmt.setString(1, userName);
+            stmt.setInt(2, bookId);
+            stmt.executeUpdate();
+            
+            return "The book has been issued successfully.";
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return "Failed to issue the book. An error occurred.";
+        } finally {
+            if (stmt != null) {
+                stmt.close();
+            }
+            if (connection != null) {
+                connection.close();
+            }
+        }
+    }
+
+  
+    }
+

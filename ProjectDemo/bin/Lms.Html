@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function ValidateStartDate() {
+            var startDateInput = document.getElementById("start_date");
+            var selectDate = new Date(startDateInput.value);
+            var today = new Date();
+
+            if (selectDate <= today) {
+                alert("Leave Start Date cannot be yesterday's date");
+                startDateInput.value = '';
+                return false;
+            }
+            return true;
+        }
+
+        function ValidateEndDate() {
+            var endDateInput = document.getElementById("end_date");
+            var selectedEndDate = new Date(endDateInput.value);
+            var today = new Date();
+
+            var startDateInput = document.getElementById("start_date");
+            var selectedStartDate = new Date(startDateInput.value);
+
+            if (selectedEndDate <= selectedStartDate) {
+                alert("Leave End Date cannot be less than or equal to the start date");
+                endDateInput.value = '';
+                return false;
+            }
+
+                var oneDay = 24 * 60 * 60 * 1000; 
+                var daysDifference = Math.ceil(Math.abs((selectedStartDate - selectedEndDate) / oneDay)) + 1;
+
+            document.getElementById("no_of_days").textContent = daysDifference;
+            
+            return true;
+        }
+
+        window.onload = function() {
+            var today = new Date().toLocaleDateString();
+            document.getElementById("today_date").value = today;
+        };
+    </script>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th colspan="2">Leave Application Form</th>
+        </tr>
+        <tr>
+            <td>Leave Id</td>
+            <td>
+                <select>
+                    <option value="choose">leaveId</option>
+                    <option value="id1">1001</option>
+                    <option value="id2">1002</option>
+                    <option value="id3">1003</option>
+                    <option value="id4">1004</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Manager Name</td>
+            <td>
+                <select>
+                    <option value="choose">Choose Your Manager</option>
+                    <option value="manager1">Mr.Murari</option>
+                    <option value="manager2">Mr.Prassanna</option>
+                    <option value="manager3">Mr.Rama</option>
+                    <option value="manager4">Mr.Ariz</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Leave Start Date</td>
+            <td>
+                <input type="date" id="start_date" onchange="ValidateStartDate()" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Leave End Date</td>
+            <td>
+                <input type="date" id="end_date" onchange="ValidateEndDate()" required>
+            </td>
+        </tr>
+        <tr>
+            <td>No. Of Days</td>
+            <td id="no_of_days"></td>
+        </tr>
+        <tr>
+            <td>Leave Type</td>
+            <td>
+                <select>
+                    <option value="EL">EL</option>
+                    <option value="PL">PL</option>
+                    <option value="ML">ML</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Leave Status</td>
+            <td>
+                <select>
+                    <option value="PENDING">PENDING</option>
+                    <option value="ACCEPTED">ACCEPTED</option>
+                    <option value="REJECTED">REJECTED</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Leave Applied On</td>
+            <td>
+                <input type="text" id="today_date" readonly>
+            </td>
+        </tr>
+        <tr>
+            <td>Manager Comments</td>
+            <td>
+                <textarea id="manager_comments" ></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

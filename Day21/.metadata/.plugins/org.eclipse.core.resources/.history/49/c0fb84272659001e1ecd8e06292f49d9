@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Employee List</title>
+</head>
+<body>
+    <sql:setDataSource var="connection"
+        driver="com.mysql.cj.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/exam"
+        user="root"
+        password="@Bibha9801"
+    />
+    <sql:query var="employQuery" dataSource="${connection}">
+        SELECT * FROM Employ
+    </sql:query>
+
+    <table border="1" align="center">
+        <tr>
+            <th>Employee No</th>
+            <th>Employee Name</th>
+            <th>Gender</th>
+            <th>Department</th>
+            <th>Designation</th>
+            <th>Basic Salary</th>
+        </tr>
+        <c:forEach var="employ" items="${employQuery.rows}">
+            <tr>
+                <td><c:out value="${employ.empno}"/></td>
+                <td><c:out value="${employ.name}"/></td>
+                <td><c:out value="${employ.gender}"/></td>
+                <td><c:out value="${employ.dept}"/></td>
+                <td><c:out value="${employ.desig}"/></td>
+                <td><c:out value="${employ.basic}"/></td>
+            </tr>
+        </c:forEach>
+    </table>
+</body>
+</html>

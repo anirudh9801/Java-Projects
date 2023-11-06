@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;jndi.properties&apos; to &apos;EjbCalculationClient/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;EjbHelloWorldClient&apos;&#x0D;&#x0A;- Destination element: &apos;EjbCalculationClient/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;jndi.properties&apos;" description="Copy file" destination="=EjbCalculationClient/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="src/main/java/jndi.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1697174269065" units="0" version="1.0"/>
+</session>

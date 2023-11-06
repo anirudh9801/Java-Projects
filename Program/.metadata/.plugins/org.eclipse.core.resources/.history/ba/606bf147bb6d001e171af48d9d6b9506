@@ -1,0 +1,8 @@
+package com.java.Prog;  // Package declaration
+
+class Person {  // Declaration of the Person class
+    private String name;  // Private attribute to store the name
+    private int age;  // Private attribute to store the age
+    private String Male;
+    
+}

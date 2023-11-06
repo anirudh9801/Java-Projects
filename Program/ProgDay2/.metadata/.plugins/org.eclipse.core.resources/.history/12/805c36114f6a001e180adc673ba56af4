@@ -1,0 +1,18 @@
+package com.java.Day3;
+
+public class ExceptionExample3 {
+	public static void main(String[] args) {
+		try {
+			System.out.println("A");
+			throw new Exception();
+		} catch (Exception e) {
+			System.out.println("B");
+		}finally {
+			System.out.println("C");
+			int num = 9/0;
+			System.out.println("D");
+		}
+		System.out.println("E");
+	}
+
+}

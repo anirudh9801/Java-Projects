@@ -1,0 +1,116 @@
+package com.java.customer;
+
+import java.sql.Date;
+
+public class CreateAccount {
+	
+	private String customer_Firstname;
+
+	private String customer_lastname;
+
+	private String customer_username;
+
+	private String customer_password;
+
+	private String customer_email;
+
+	private String customer_phoneno;
+
+	private String customer_status;
+
+	private Date customer_activatedon;
+
+	public String getCustomer_Firstname() {
+		return customer_Firstname;
+	}
+
+	public void setCustomer_Firstname(String customer_Firstname) {
+		this.customer_Firstname = customer_Firstname;
+	}
+
+	public String getCustomer_lastname() {
+		return customer_lastname;
+	}
+
+	public void setCustomer_lastname(String customer_lastname) {
+		this.customer_lastname = customer_lastname;
+	}
+
+	public String getCustomer_username() {
+		return customer_username;
+	}
+
+	public void setCustomer_username(String customer_username) {
+		this.customer_username = customer_username;
+	}
+
+	public String getCustomer_password() {
+		return customer_password;
+	}
+
+	public void setCustomer_password(String customer_password) {
+		this.customer_password = customer_password;
+	}
+
+	public String getCustomer_email() {
+		return customer_email;
+	}
+
+	public void setCustomer_email(String customer_email) {
+		this.customer_email = customer_email;
+	}
+
+	public String getCustomer_phoneno() {
+		return customer_phoneno;
+	}
+
+	public void setCustomer_phoneno(String customer_phoneno) {
+		this.customer_phoneno = customer_phoneno;
+	}
+
+	public String getCustomer_status() {
+		return customer_status;
+	}
+
+	public void setCustomer_status(String customer_status) {
+		this.customer_status = customer_status;
+	}
+
+	public Date getCustomer_activatedon() {
+		return customer_activatedon;
+	}
+
+	public void setCustomer_activatedon(Date customer_activatedon) {
+		this.customer_activatedon = customer_activatedon;
+	}
+
+	public CreateAccount() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public CreateAccount(String customer_Firstname, String customer_lastname, String customer_username,
+			String customer_password, String customer_email, String customer_phoneno, String customer_status,
+			Date customer_activatedon) {
+		super();
+		this.customer_Firstname = customer_Firstname;
+		this.customer_lastname = customer_lastname;
+		this.customer_username = customer_username;
+		this.customer_password = customer_password;
+		this.customer_email = customer_email;
+		this.customer_phoneno = customer_phoneno;
+		this.customer_status = customer_status;
+		this.customer_activatedon = customer_activatedon;
+	}
+
+	@Override
+	public String toString() {
+		return "CreateAccount [customer_Firstname=" + customer_Firstname + ", customer_lastname=" + customer_lastname
+				+ ", customer_username=" + customer_username + ", customer_password=" + customer_password
+				+ ", customer_email=" + customer_email + ", customer_phoneno=" + customer_phoneno + ", customer_status="
+				+ customer_status + ", customer_activatedon=" + customer_activatedon + "]";
+	}
+
+	
+
+}

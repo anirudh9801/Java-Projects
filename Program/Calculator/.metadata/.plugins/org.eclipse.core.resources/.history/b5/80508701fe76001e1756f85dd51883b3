@@ -1,0 +1,33 @@
+package com.java.jsp;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+public class CalculationDaoImpl implements CalculationDao{
+	SessionFactory sf;
+	Session session;
+	@Override
+	public String saveCalculation(Calculation calculation) {
+		sf = SessionHelper.getConnection();
+		session = sf.openSession();
+		Transaction trans = session.beginTransaction();
+		double a=calculation.getNum1();
+	    double b=	calculation.getNum2();
+	    
+	    double sum=a+b;
+	     calculation.setResult(sum);
+	     double calc=calculation.getResult();
+	     session.save(calculation);
+			trans.commit();
+			System.out.println(sum);
+			return "Result.jsp?faces-redirect=true";
+		
+	     
+		
+	}
+	
+
+
+}

@@ -1,0 +1,374 @@
+2023-10-30 10:23:38,101 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-10-30 10:31:23,396 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-10-30 10:46:49,567 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-10-30 10:53:58,957 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606 [610])
+2023-10-30 10:53:59,002 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606
+2023-10-30 10:53:59,003 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\aether-connector-okhttp-0.17.8.jar
+2023-10-30 10:53:59,003 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\commons-lang3-3.8.1.jar
+2023-10-30 10:53:59,004 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\guice-4.2.2-no_aop.jar
+2023-10-30 10:53:59,004 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\jansi-2.4.0.jar
+2023-10-30 10:53:59,004 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-artifact-3.8.7.jar
+2023-10-30 10:53:59,004 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-builder-support-3.8.7.jar
+2023-10-30 10:53:59,004 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-compat-3.8.7.jar
+2023-10-30 10:53:59,004 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-core-3.8.7.jar
+2023-10-30 10:53:59,004 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-embedder-3.8.7.jar
+2023-10-30 10:53:59,004 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-3.8.7.jar
+2023-10-30 10:53:59,005 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-builder-3.8.7.jar
+2023-10-30 10:53:59,005 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-plugin-api-3.8.7.jar
+2023-10-30 10:53:59,006 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-repository-metadata-3.8.7.jar
+2023-10-30 10:53:59,006 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-api-1.6.3.jar
+2023-10-30 10:53:59,007 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-10-30 10:53:59,007 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-impl-1.6.3.jar
+2023-10-30 10:53:59,007 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-provider-3.8.7.jar
+2023-10-30 10:53:59,008 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-spi-1.6.3.jar
+2023-10-30 10:53:59,009 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-10-30 10:53:59,009 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-util-1.6.3.jar
+2023-10-30 10:53:59,009 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-3.8.7.jar
+2023-10-30 10:53:59,009 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-builder-3.8.7.jar
+2023-10-30 10:53:59,010 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-shared-utils-3.3.4.jar
+2023-10-30 10:53:59,010 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okhttp-3.14.1.jar
+2023-10-30 10:53:59,010 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okio-1.17.3.jar
+2023-10-30 10:53:59,011 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-10-30 10:53:59,011 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-10-30 10:53:59,011 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-build-api-0.0.7.jar
+2023-10-30 10:53:59,012 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-cipher-2.0.jar
+2023-10-30 10:53:59,012 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar
+2023-10-30 10:53:59,012 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-component-annotations-2.1.0.jar
+2023-10-30 10:53:59,013 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-interpolation-1.26.jar
+2023-10-30 10:53:59,013 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-sec-dispatcher-2.0.jar
+2023-10-30 10:53:59,013 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-utils-3.3.1.jar
+2023-10-30 10:53:59,014 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-file-3.5.3.jar
+2023-10-30 10:53:59,014 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-provider-api-3.5.3.jar
+2023-10-30 10:53:59,019 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [11])
+2023-10-30 10:53:59,020 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\com.google.guava_31.1.0.jre.jar
+2023-10-30 10:53:59,020 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [924])
+2023-10-30 10:53:59,022 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\slf4j.api_1.7.36.jar
+2023-10-30 10:53:59,022 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [35])
+2023-10-30 10:53:59,024 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-10-30 10:53:59,024 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221203-1659 [33])
+2023-10-30 10:53:59,025 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\javax.annotation_1.3.5.v20221203-1659.jar
+2023-10-30 10:53:59,026 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.4.0.v20221112-0806 [67])
+2023-10-30 10:53:59,027 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\org.apache.commons.cli_1.4.0.v20221112-0806.jar
+2023-10-30 10:53:59,028 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [13])
+2023-10-30 10:53:59,029 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\anirudhm\Downloads\eclipse-jee-2023-03-R-win32-x86_64\eclipse\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-10-30 10:53:59,039 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\anirudhm\AppData\Local\Temp\m2e-archetypeGenerator7823985397054653475":
+2023-10-30 10:53:59,047 [Worker-2: Launching mavenrun-42af4f79-0197-43e8-bd79-633e41864f88] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.glassfish.jersey.archetypes -DarchetypeArtifactId=jersey-quickstart-webapp -DarchetypeVersion=3.1.3 -DgroupId=Infinite -DartifactId=Calculator -Dversion=0.0.1-SNAPSHOT -Dpackage=com.java.jsp -DoutputDirectory=D:\Program\Calculator -Dstyle.color=always -U archetype:generate
+2023-10-30 10:54:20,823 [Worker-14: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\Program\Calculator\Calculator\pom.xml
+2023-10-30 10:54:24,352 [Worker-14: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Infinite:Calculator:0.0.1-SNAPSHOT @ D:\Program\Calculator\Calculator\pom.xml.
+2023-10-30 10:54:26,574 [Worker-14: Creating jersey-quickstart-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Calculator/src/main/java
+2023-10-30 10:54:26,574 [Worker-14: Creating jersey-quickstart-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Calculator/src/main/resources
+2023-10-30 10:54:26,585 [Worker-14: Creating jersey-quickstart-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Calculator/src/test/java
+2023-10-30 10:54:29,648 [Worker-14: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 10:54:29,659 [Worker-14: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 10:54:29,663 [Worker-14: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 10:54:29,664 [Worker-14: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 10:54:30,698 [Worker-14: Creating jersey-quickstart-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 9 sec
+2023-10-30 10:54:31,789 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 10:54:31,791 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 10:54:31,794 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 10:54:31,794 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 10:55:56,319 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 10:55:56,333 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 10:55:56,336 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 10:55:56,336 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 10:59:23,541 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Infinite:Calculator:0.0.1-SNAPSHOT @ D:\Program\Calculator\Calculator\pom.xml.
+2023-10-30 10:59:23,761 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 10:59:23,762 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 10:59:23,764 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 10:59:23,765 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 10:59:23,765 [Worker-31: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Calculator
+2023-10-30 10:59:23,766 [Worker-31: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Calculator
+2023-10-30 11:34:42,330 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:34:42,331 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 11:34:42,333 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:34:42,333 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 11:35:01,161 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:35:01,162 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 11:35:01,163 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:35:01,163 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 11:39:04,976 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:39:04,976 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 11:39:04,979 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:39:04,980 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 11:40:28,595 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:40:28,596 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 11:40:28,600 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:40:28,601 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 11:41:02,638 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:41:02,639 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 11:41:02,641 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:41:02,641 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 11:41:10,408 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:41:10,408 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 11:41:10,411 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:41:10,411 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 11:43:07,090 [main] INFO  org.hibernate.cfg.Environment - Hibernate 3.5.6-Final
+2023-10-30 11:43:07,113 [main] INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2023-10-30 11:43:07,116 [main] INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2023-10-30 11:43:07,121 [main] INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2023-10-30 11:44:16,562 [main] INFO  org.hibernate.cfg.Configuration - configuring from XML document
+2023-10-30 11:44:16,563 [main] INFO  org.hibernate.cfg.Configuration - Configured SessionFactory: null
+2023-10-30 11:44:16,619 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:44:16,621 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 11:44:16,629 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:44:16,629 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 11:44:17,683 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:44:17,684 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 11:44:17,689 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:44:17,689 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 11:44:36,423 [main] INFO  org.hibernate.cfg.Environment - Hibernate 3.6.10.Final
+2023-10-30 11:44:36,424 [main] INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2023-10-30 11:44:36,427 [main] INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2023-10-30 11:44:36,428 [main] INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2023-10-30 11:44:38,261 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:44:38,262 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 11:44:38,265 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:44:38,266 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 11:51:46,757 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:51:46,757 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 11:51:46,759 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:51:46,760 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 11:52:14,197 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:52:14,197 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 11:52:14,198 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:52:14,198 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 11:52:21,049 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:52:21,050 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 11:52:21,053 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:52:21,053 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 11:54:29,588 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:54:29,589 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 11:54:29,590 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:54:29,591 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 11:59:15,744 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:59:15,744 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 11:59:15,745 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 11:59:15,745 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:11:23,289 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:11:23,289 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 12:11:23,292 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:11:23,292 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:21:17,890 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:21:17,892 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 12:21:17,897 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:21:17,897 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:21:27,045 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:21:27,045 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 12:21:27,047 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:21:27,047 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:21:38,114 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:21:38,114 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 12:21:38,116 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:21:38,117 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:22:39,655 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:22:39,655 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 12:22:39,657 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:22:39,657 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:26:43,507 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:26:43,508 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 12:26:43,509 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:26:43,510 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:38:46,844 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:38:46,845 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 12:38:46,852 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:38:46,852 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:39:30,487 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:39:30,488 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 12:39:30,495 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:39:30,496 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:39:41,647 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:39:41,647 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 12:39:41,650 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:39:41,650 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:41:03,575 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:41:03,577 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 12:41:03,581 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:41:03,581 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:42:39,307 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:42:39,307 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 12:42:39,309 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:42:39,310 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:43:19,902 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:43:19,903 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 12:43:19,906 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:43:19,907 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:43:20,970 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:43:20,970 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 12:43:20,972 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:43:20,973 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:45:10,610 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:45:10,611 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 12:45:10,614 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:45:10,614 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:46:28,844 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:46:28,845 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 12:46:28,847 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:46:28,847 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:49:33,743 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:49:33,743 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 12:49:33,745 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:49:33,745 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:50:00,801 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:50:00,801 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 12:50:00,804 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:50:00,804 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 12:50:16,645 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:50:16,646 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 12:50:16,649 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 12:50:16,649 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:41:41,909 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:41:41,909 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 13:41:41,911 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:41:41,912 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:43:48,758 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:43:48,759 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 13:43:48,761 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:43:48,761 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:45:56,123 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:45:56,123 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 13:45:56,128 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:45:56,129 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:46:15,932 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:46:15,932 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 13:46:15,934 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:46:15,935 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:48:26,496 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:48:26,496 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 13:48:26,499 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:48:26,499 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:50:47,213 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:50:47,213 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 13:50:47,219 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:50:47,219 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:53:51,619 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:53:51,619 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 13:53:51,621 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:53:51,621 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:53:57,993 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:53:57,994 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 13:53:57,996 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:53:57,996 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:54:14,343 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:54:14,344 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 13:54:14,347 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:54:14,347 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:54:33,797 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:54:33,798 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 13:54:33,801 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:54:33,801 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:56:22,211 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:56:22,212 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 13:56:22,214 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:56:22,215 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:56:30,851 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:56:30,852 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 13:56:30,856 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:56:30,856 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:56:47,542 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:56:47,543 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 13:56:47,544 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:56:47,545 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:56:55,374 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:56:55,374 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 13:56:55,379 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:56:55,379 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:57:21,135 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:57:21,135 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 13:57:21,137 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:57:21,138 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 13:58:36,204 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:58:36,204 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 13:58:36,206 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 13:58:36,206 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:00:01,395 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:00:01,396 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 14:00:01,398 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:00:01,398 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:01:39,922 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:01:39,923 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 14:01:39,925 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:01:39,925 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:04:11,848 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:04:11,849 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 14:04:11,852 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:04:11,853 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:04:14,057 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:04:14,058 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 14:04:14,062 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:04:14,062 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:05:39,527 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:05:39,528 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 14:05:39,531 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:05:39,531 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:08:13,771 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:08:13,772 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 14:08:13,773 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:08:13,773 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:09:01,286 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:09:01,286 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 14:09:01,289 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:09:01,289 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:09:57,062 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:09:57,062 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 14:09:57,066 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:09:57,066 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:10:31,181 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:10:31,181 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 14:10:31,186 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:10:31,186 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:13:15,046 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:13:15,047 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 14:13:15,048 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:13:15,049 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:14:23,272 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:14:23,273 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 14:14:23,276 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:14:23,276 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:15:49,099 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:15:49,099 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 14:15:49,101 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:15:49,102 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:16:20,992 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:16:20,992 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 14:16:20,994 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:16:20,995 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:16:25,067 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:16:25,068 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 14:16:25,070 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:16:25,071 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:19:24,680 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:19:24,680 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 14:19:24,682 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:19:24,682 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:19:51,181 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:19:51,181 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 14:19:51,183 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:19:51,183 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:20:11,200 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:20:11,201 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 14:20:11,202 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:20:11,202 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:28:08,948 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:28:08,948 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 14:28:08,949 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:28:08,950 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:28:57,472 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:28:57,472 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 14:28:57,473 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:28:57,473 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:29:22,502 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:29:22,503 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 14:29:22,504 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:29:22,504 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:29:24,898 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:29:24,898 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-30 14:29:24,899 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:29:24,900 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:30:25,438 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:30:25,439 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 14:30:25,440 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:30:25,440 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources
+2023-10-30 14:32:00,420 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:32:00,420 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-30 14:32:00,422 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-30 14:32:00,422 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Program\Calculator\Calculator\src\test\resources

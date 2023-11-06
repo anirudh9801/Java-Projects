@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-coyote.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/ecj-4.6.3.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-util.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/com/sun/faces/jsf-api/2.1.7/jsf-api-2.1.7.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-ant.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/jasper-el.jar"/>
+  <path value="/JsfHelloWorld/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="JsfHelloWorld"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/hk2-api/3.0.4/hk2-api-3.0.4.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-jdbc.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-util-scan.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-fr.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/jaspic-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-dbcp.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/annotations-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/servlet-api.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/hk2-locator/3.0.4/hk2-locator-3.0.4.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/core/jersey-server/3.1.3/jersey-server-3.1.3.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/3.1.3/jersey-hk2-3.1.3.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-ja.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-tribes.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/el-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/websocket-api.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/3.1.3/jersey-container-servlet-core-3.1.3.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.4.Final/hibernate-commons-annotations-4.0.4.Final.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/jsp-api.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-websocket.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-ha.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/hk2-utils/3.0.4/hk2-utils-3.0.4.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/core/jersey-common/3.1.3/jersey-common-3.1.3.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/3.0.4/aopalliance-repackaged-3.0.4.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/jasper.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/core/jersey-client/3.1.3/jersey-client-3.1.3.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-ru.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-storeconfig.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-es.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-jni.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/com/sun/faces/jsf-impl/2.1.7/jsf-impl-2.1.7.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.1.7.jar/meta-inf/html_basic.tld" project="JsfHelloWorld"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.1.7.jar/meta-inf/jsf_core.tld" project="JsfHelloWorld"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.1.7.jar/meta-inf/mojarra_ext.taglib.xml" project="JsfHelloWorld"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.1.7.jar/meta-inf/mojarra_ext.tld" project="JsfHelloWorld"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.1.7.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="JsfHelloWorld"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.1.7.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="JsfHelloWorld"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.1.7.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="JsfHelloWorld"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.1.7.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="JsfHelloWorld"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.1.7.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="JsfHelloWorld"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.1.7.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="JsfHelloWorld"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.1.7.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="JsfHelloWorld"/>
+    </library>
+   </libraries>
+  </path>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification">
+   <linked-resource declaration="true" name="%1;%2;" path="%0"/>
+  </core>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="24" name="%3" offset="350" path="%4"/>
+   <linked-el length="26" name="%3" offset="416" path="%4"/>
+   <linked-el length="45" name="%5" offset="637" path="%6"/>
+   <linked-el length="24" name="%5" offset="402" path="%6"/>
+   <linked-el length="24" name="%5" offset="402" path="%7"/>
+   <linked-el length="11" name="%8" offset="780" path="%9"/>
+   <linked-el length="12" name="%10" offset="1143" path="%9"/>
+   <linked-el length="12" name="%11" offset="1320" path="%9"/>
+   <linked-el length="12" name="%12" offset="1143" path="%9"/>
+   <linked-el length="11" name="%12" offset="961" path="%9"/>
+   <linked-el length="12" name="%12" offset="604" path="%9"/>
+   <linked-el length="11" name="%12" offset="780" path="%9"/>
+   <linked-el length="12" name="%12" offset="1320" path="%9"/>
+   <linked-el length="17" name="%13" offset="1381" path="%14"/>
+   <linked-el length="27" name="%15" offset="389" path="%16"/>
+   <linked-el length="27" name="%15" offset="396" path="%17"/>
+   <linked-el length="27" name="%18" offset="389" path="%16"/>
+   <linked-el length="27" name="%18" offset="396" path="%17"/>
+   <linked-el length="21" name="%19" offset="414" path="%20"/>
+   <linked-el length="21" name="%19" offset="341" path="%20"/>
+   <linked-el length="23" name="%21" offset="637" path="%7"/>
+   <linked-el length="21" name="%22" offset="442" path="%23"/>
+   <linked-el length="15" name="%22" offset="337" path="%23"/>
+   <linked-el length="12" name="%24" offset="604" path="%9"/>
+   <linked-el length="17" name="%25" offset="1381" path="%14"/>
+   <linked-el length="45" name="%26" offset="637" path="%6"/>
+   <linked-el length="23" name="%26" offset="637" path="%7"/>
+   <linked-el length="24" name="%26" offset="402" path="%6"/>
+   <linked-el length="23" name="%26" offset="515" path="%6"/>
+   <linked-el length="24" name="%26" offset="402" path="%7"/>
+   <linked-el length="23" name="%26" offset="515" path="%7"/>
+   <linked-el length="21" name="%27" offset="414" path="%20"/>
+   <linked-el length="21" name="%27" offset="341" path="%20"/>
+   <linked-el length="45" name="%28" offset="637" path="%6"/>
+   <linked-el length="23" name="%28" offset="515" path="%6"/>
+   <linked-el length="23" name="%28" offset="515" path="%7"/>
+   <linked-el length="28" name="%29" offset="417" path="%9"/>
+   <linked-el length="11" name="%30" offset="961" path="%9"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="Greeting" value="%3"/>
+  <alias path="nameBean.firstName" value="%5"/>
+  <alias path="e.basic" value="%11"/>
+  <alias path="jersey.version" value="%13"/>
+  <alias path="/JsfHelloWorld/src/main/webapp/Greeting.xhtml" value="%4"/>
+  <alias path="helloBean.studentName" value="%18"/>
+  <alias path="com.java.hello.HelloWorld" value="%2"/>
+  <alias path="/JsfHelloWorld/src/main/webapp/Test.xhtml" value="%23"/>
+  <alias path="nameBean.fullName" value="%21"/>
+  <alias
+   path="\JsfHelloWorld\src\main\java\com\java\hello\HelloWorld.java" value="%1"/>
+  <alias path="Test" value="%22"/>
+  <alias path="e.empno" value="%24"/>
+  <alias path="jersey" value="%25"/>
+  <alias path="employDao" value="%29"/>
+  <alias path="e.name" value="%8"/>
+  <alias path="/JsfHelloWorld/src/main/webapp/helloResult.xhtml" value="%16"/>
+  <alias path="/JsfHelloWorld/src/main/webapp/ShowEmploy.xhtml" value="%9"/>
+  <alias path="e.desig" value="%10"/>
+  <alias path="e" value="%12"/>
+  <alias path="/JsfHelloWorld/src/main/webapp/hello.xhtml" value="%20"/>
+  <alias path="helloBean" value="%15"/>
+  <alias path="/JsfHelloWorld/src/main/webapp/nameBean.xhtml" value="%7"/>
+  <alias path="/JsfHelloWorld/pom.xml" value="%14"/>
+  <alias
+   path="/JsfHelloWorld/src/main/java/com/java/hello/HelloWorld.java" value="%19"/>
+  <alias path="nameBean" value="%26"/>
+  <alias path="/JsfHelloWorld/src/main/webapp/helloinput.xhtml" value="%17"/>
+  <alias path="/JsfHelloWorld/src/main/webapp/WEB-INF/faces-config.xml" value="%0"/>
+  <alias path="hello" value="%27"/>
+  <alias path="nameBean.lastName" value="%28"/>
+  <alias path="/JsfHelloWorld/src/main/webapp/nameResult.xhtml" value="%6"/>
+  <alias path="e.dept" value="%30"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/facelets">
+   <prefix>ui</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

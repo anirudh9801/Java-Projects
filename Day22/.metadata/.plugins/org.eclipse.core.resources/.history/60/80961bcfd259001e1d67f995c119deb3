@@ -1,0 +1,42 @@
+<%@page import="com.java.lib.LibUsers"%>
+<%@page import="com.java.lib.LibraryDaoImpl"%>
+<%@page import="com.java.lib.LibraryDAO"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="post" action="login.jsp">
+<center>
+<h2>Please Login :</h2>
+Username : <input type="text" name="username" size="50"> <br/><br/>
+Password : <input type="password" name="pass" size="50"> <br/><br/>
+<input type="submit" value="Login">
+</center>
+</form>
+<c:if test="${not empty param.username and not empty param.pass}">
+    <c:set var="user" value="${param.username}" />
+    <c:set var="pwd" value="${param.pass}" />
+    <c:set var="dao" value="${new com.java.lib.LibraryDaoImpl()}" />
+    <c:set var="users" value="${new com.java.lib.LibUsers()}" />
+    <c:set property="userName" target="${users}" value="${user}" />
+    <c:set property="passWord" target="${users}" value="${pwd}" />
+    <c:set var="count" value="${dao.authenticate(users)}" />
+
+    <c:choose>
+        <c:when test="${count == 1}">
+            <c:set var="user" value="${user}" scope="session" />
+            <jsp:forward page="Menu.jsp" />
+        </c:when>
+        <c:otherwise>
+            <p>Invalid Credentials</p>
+        </c:otherwise>
+    </c:choose>
+</c:if>
+
+</body>
+</html>

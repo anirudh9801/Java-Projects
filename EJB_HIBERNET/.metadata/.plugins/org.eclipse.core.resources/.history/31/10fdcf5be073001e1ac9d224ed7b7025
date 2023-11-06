@@ -1,0 +1,108 @@
+<%@page contentType="text/html"%>
+<%@page pageEncoding="UTF-8"%>
+
+<%@taglib prefix="f" uri="http://java.sun.com/jsf/core"%>
+<%@taglib prefix="h" uri="http://java.sun.com/jsf/html"%>
+
+<f:view>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>JSP Page</title>
+    <style>
+        /* Overall page styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .col-sm-4 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        h2 {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Form styling */
+        .h-form {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        h:inputText {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        h:selectOneMenu {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        .h-commandButton {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h:form class="h-form">
+        <h2 class="col-sm-4">Add customer</h2>
+        <hr/>
+
+        <!-- Apply styles to individual input elements -->
+        <label>First Name</label>
+        <h:inputText id="firstName" value="#{customer.firstName}" /><br/><br/>
+
+        <label>Last Name</label>
+        <h:inputText id="lastName" value="#{customer.lastName}" /><br/><br/>
+
+        <label>Gender:</label>
+        <h:selectOneMenu id="gender" value="#{customer.gender}">
+            <f:selectItem itemLabel="Select Gender" itemValue="" />
+            <f:selectItem itemLabel="Male" itemValue="Male" />
+            <f:selectItem itemLabel="Female" itemValue="Female" />
+        </h:selectOneMenu>
+
+        <label>DOB:</label>
+        <h:inputText id="dob" value="#{customer.dob}">
+            <f:convertDateTime pattern="dd/MM/yyyy" />
+        </h:inputText><br/><br/>
+
+        <label>Username</label>
+        <h:inputText id="userName" value="#{customer.userName}" /><br/><br/>
+
+        <label>Email</label>
+        <h:inputText id="email" value="#{customer.email}" /><br/><br/>
+
+        <h:commandButton value="Add Customer" action="#{cImpl.addCustomer(customer)}" class="h-commandButton" />
+        <h:commandButton value="Show Customer Details" action="ShowCustomer" class="h-commandButton" />
+    </h:form>
+</body>
+</html>
+</f:view>

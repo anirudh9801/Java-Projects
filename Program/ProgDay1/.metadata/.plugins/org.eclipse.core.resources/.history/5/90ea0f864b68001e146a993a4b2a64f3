@@ -1,0 +1,12 @@
+
+package com.java.Prog;  // Package declaration
+
+public class Main {  // Declaration of the Main class
+    public static void main(String[] args) {  // Main method, the entry point of the program
+        Person p1 = new Person("Anirudh", 23);  // Create a Person object "p1" with a name and age
+        Person p2 = new Person("Harsh", 22);    // Create another Person object "p2" with a name and age
+
+        System.out.println(p1.getName() + " " + p1.getAge());  // Print the name and age of p1
+        System.out.println(p2.getName() + " " + p2.getAge());  // Print the name and age of p2
+    }
+}

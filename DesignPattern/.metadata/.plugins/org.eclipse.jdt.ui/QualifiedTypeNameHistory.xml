@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.java.dsp.Calculation"/>
+    <fullyQualifiedTypeName name="com.java.dsp.ConnectionString"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.java.dsp.DotnetTraining"/>
+    <fullyQualifiedTypeName name="com.java.dsp.JavaTraining"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.java.dsp.AbstractFactory"/>
+    <fullyQualifiedTypeName name="com.java.dsp.TrainingFactory"/>
+    <fullyQualifiedTypeName name="com.java.dsp.Training"/>
+</qualifiedTypeNameHistroy>

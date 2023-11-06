@@ -1,0 +1,89 @@
+package com.java.lib;
+
+ 
+
+import java.sql.Connection;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import com.mysql.cj.protocol.Resultset;
+
+ 
+
+ 
+
+public  class LibraryDaoImpl implements LibraryDAO{
+
+	
+
+	Connection connection;
+
+	PreparedStatement pst;
+
+	
+
+	public boolean checkPassword(String pwd, String retype) {
+
+		if(pwd.equals(retype)) {
+
+			return true;
+
+		}
+
+		return false;
+
+	}
+
+ 
+
+	@Override
+
+	public String createUser(LibUsers libUsers) throws ClassNotFoundException, SQLException {
+
+		connection = ConnectionHelper.getConnection();
+
+		String encPwd = EncryptPassword.getCode(libUsers.getPassWord());
+
+		String cmd = "Insert into LibUsers(UserName, Password) values (?,?)";
+
+		pst = connection.prepareStatement(cmd);
+
+		pst.setString(1, libUsers.getUserName());
+
+		pst.setString(2, encPwd);
+
+	    pst.executeUpdate();
+
+	    return "Uset account Created";
+
+	}
+
+	@Override
+	public int authenticate(LibUsers libUsers) throws SQLException, ClassNotFoundException {
+		connection = ConnectionHelper.getConnection();
+		String encr=EncryptPassword.getCode(libUsers.getPassWord());
+		String cmd = "select count(*) cnt from LibUsers where userName=? AND Password=?";
+		pst = connection.prepareStatement(cmd);
+		pst.setString(1, libUsers.getUserName());
+		pst.setString(2, encr.trim());
+		ResultSet rs = pst.executeQuery();
+		rs.next();
+		int count = rs.getInt("cnt");
+		return count;
+
+	}
+
+
+
+	@Override
+	public List<Books> searchBooks(String searchType, String searchValue) throws ClassNotFoundException, SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+ 
+
+}

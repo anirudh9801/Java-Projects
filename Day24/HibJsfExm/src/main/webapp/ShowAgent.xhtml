@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>Agent Records</title>
+</h:head>
+
+<h:body>
+    <h:form>
+        <center>
+            <h2>Agent Records</h2>
+        </center>
+
+        <h:dataTable value="#{aDAO.showAgentsOrderedByBasic()}" var="e" border="3">
+            <h:column>
+                <f:facet name="header">Agent ID</f:facet>
+                <h:outputText value="#{e.agentID}" />
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">Agent Name</f:facet>
+                <h:outputText value="#{e.name}" />
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">City</f:facet>
+                <h:outputText value="#{e.city}" />
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">Gender</f:facet>
+                <h:outputText value="#{e.gender}" />
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">Marital Status</f:facet>
+                <h:outputText value="#{e.maritalStatus}" />
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">Premium</f:facet>
+                <h:outputText value="#{e.premium}" />
+            </h:column>
+               <h:column>
+     <f:facet name="header">Update</f:facet>
+     <h:commandButton action="#{aDAO.searchAgentById(e.agentID)}" value="Update">
+     </h:commandButton>
+   </h:column>
+         <h:column>
+     <f:facet name="header">Delete</f:facet>
+     <h:commandButton action="#{aDAO.deleteAgent(e.agentID)}" value="Delete">
+     </h:commandButton>
+   </h:column>
+        </h:dataTable>
+        	<center>
+	<h:commandButton action="CreateAgent.xhtml?faces-redirect=true" value="Create Agent"/>
+	
+	</center>
+    </h:form>
+</h:body>
+
+</html>

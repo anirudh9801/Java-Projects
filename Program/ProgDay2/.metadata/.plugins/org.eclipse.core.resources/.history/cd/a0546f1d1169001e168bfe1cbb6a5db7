@@ -1,0 +1,18 @@
+package com.java.Day2;
+
+import java.util.ArrayList;
+
+public class AddElementsToSpecificIndex {
+	
+	public static void main(String[] args) {
+		ArrayList arraylsit = new ArrayList();
+		
+		arraylsit.add("1");
+		arraylsit.add("Anirudh");
+		arraylsit.add("3");
+		arraylsit.add("Amar");
+		
+		System.out.println("Before : " +arraylsit);
+	}
+
+}

@@ -1,0 +1,104 @@
+package com.java.rms;
+
+import java.sql.Date;
+import java.util.Map;
+import java.util.List;
+
+import javax.faces.context.FacesContext;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.criterion.Restrictions;
+
+import com.mysql.cj.x.protobuf.MysqlxCrud.Order;
+
+import org.hibernate.Criteria;
+import org.hibernate.Query;
+
+public class OrdersDaoImpl implements OrdersDAO{
+	
+	SessionFactory sf;
+	Session session;
+	
+	@Override
+	public String placeOrderDao(Orders order) {
+		java.util.Date utilDate = new java.util.Date();
+		Date currentDate = new Date(utilDate.getTime());
+		
+		Map<String, Object> sessionMap =
+		FacesContext.getCurrentInstance().getExternalContext().getSessionMap();
+		int custId = (int) sessionMap.get("customerId");
+		int venId = (int) sessionMap.get("venId");
+		int menuId = (int) sessionMap.get("menuId");
+		double price = (Double) sessionMap.get("billAmount");
+		double billAmount = price * order.getOrdquantity();
+		System.out.println(billAmount);
+		String payType = (String) sessionMap.get("payType");
+		WalletSource ws = WalletSource.valueOf(payType);
+		double walletAmount = new CustomerDaoImpl().purseValue(payType);
+		if (walletAmount - billAmount > 0) {
+			order.setCusid(custId);
+			order.setVenid(venId);
+			order.setWalsource(payType);
+			order.setMenid(menuId);
+			order.setOrdbillamount(billAmount);
+			order.setOrdstatus(Ordstatus.PENDING);
+			order.setOrddate(currentDate);
+			System.out.println(order);
+			double balance = walletAmount - billAmount;
+			
+			sf = SessionHelper.getConnection();
+			session = sf.openSession();
+			Transaction trans = session.beginTransaction();
+			session.save(order);
+			trans.commit();
+			session.close();
+			session = SessionHelper.getConnection().openSession();
+			String q = "from Wallet where custId = " +custId + " AND walletSource = '" +ws +"'";
+			System.out.println(q);
+			Query query = session.createQuery(q);
+			
+			Wallet wallet = (Wallet)query.list().get(0);
+			trans = session.beginTransaction(); 
+			wallet.setWalletAmount(balance); 
+			session.update(wallet);
+			trans.commit();
+			return "Dashboard.jsp?faces-redirect=true";
+		} else {
+			return "Message.jsp?faces-redirect=true";
+		}
+	
+	}
+
+	@Override
+	public String orderHistory() {
+		Map<String, Object> sessionMap = FacesContext.getCurrentInstance().getExternalContext().getSessionMap();
+		sf = SessionHelper.getConnection();
+		session = sf.openSession();
+		int custId = (int) sessionMap.get("customerId");
+		System.out.println(custId);
+		Criteria criteria = session.createCriteria(Orders.class);
+		criteria.add(Restrictions.eq("cusid",custId));
+		
+		List<Order> orderList = criteria.list();
+		sessionMap.put("orderList",orderList);
+		System.out.println("orderlist"+orderList);
+		return "OrderHistory.jsp?faces-redirect=true"; 
+	}
+
+	@Override
+	public String pendingOrder() {
+		Map<String, Object> sessionMap = FacesContext.getCurrentInstance().getExternalContext().getSessionMap();
+		sf = SessionHelper.getConnection();
+		session = sf.openSession();
+		int custId = (int) sessionMap.get("customerId");
+		Criteria cr = session.createCriteria(Orders.class);
+		cr.add(Restrictions.eq("cusid", custId));
+		cr.add(Restrictions.eq("ordstatus", Ordstatus.PENDING));
+		List<Order>orderList = cr.list();
+		sessionMap.put("orderList", orderList);
+		System.out.println("OrderList"+orderList);
+		return "PendingOrder.jsp?faces-redirect=true";
+	}
+}

@@ -1,0 +1,20 @@
+<%@ page import="com.java.hotel.CustomerDAOImpl" %>
+<%@ page import="com.java.hotel.CustomerDAO" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Delete Customer</title>
+</head>
+<body>
+    <%
+    if(request.getParameter("CustomerID")!=null){
+    int CustomerID = Integer.parseInt(request.getParameter("CustomerID"));
+    CustomerDAO dao = new CustomerDAOImpl();
+    dao.deleteCustomer(CustomerID);
+    }
+    %>
+    <jsp:forward page="ShowCustomer.jsp"/>
+</body>
+</html>

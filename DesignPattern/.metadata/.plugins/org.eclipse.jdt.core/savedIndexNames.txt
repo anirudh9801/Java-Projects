@@ -1,0 +1,7 @@
+INDEX VERSION 1.132+D:\DesignPattern\.metadata\.plugins\org.eclipse.jdt.core
+1101507980.index
+89686527.index
+1191668580.index
+3408057618.index
+1865797976.index
+2197717390.index

@@ -1,0 +1,10 @@
+package com.java.lib;
+
+public class LibraryDAOImpl implements LibraryDAO {
+
+	@Override
+	public String createUsers(LibUsers libUsers) {
+       
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.java.jsp;
+
+public class PatientController {
+	
+	private Patient patient;
+	private PatientDaoImpl daoImpl;
+	
+	
+	public Patient getPatient() {
+		return patient;
+	}
+	public void setPatient(Patient patient) {
+		this.patient = patient;
+	}
+	public PatientDaoImpl getDaoImpl() {
+		return daoImpl;
+	}
+	public void setDaoImpl(PatientDaoImpl daoImpl) {
+		this.daoImpl = daoImpl;
+	}
+	
+	
+	
+
+}

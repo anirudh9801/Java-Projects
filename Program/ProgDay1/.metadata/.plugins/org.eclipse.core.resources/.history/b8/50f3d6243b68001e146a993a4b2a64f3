@@ -1,0 +1,27 @@
+class Person { // Making the class named Person
+    private String name; // Name attribute of String type
+    private int age; // Age attribute of int type
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
+
+ class Main {
+    public static void main(String[] args) {
+        Person p1 = new Person("Anirudh", 22);
+        Person p2 = new Person("Harsh", 21);
+
+        System.out.println(p1.getName() + " " + p1.getAge());
+        System.out.println(p2.getName() + " " + p2.getAge());
+    }
+}

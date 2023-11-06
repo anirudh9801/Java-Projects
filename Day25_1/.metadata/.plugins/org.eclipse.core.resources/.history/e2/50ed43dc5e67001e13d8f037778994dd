@@ -1,0 +1,126 @@
+package com.java.cms;
+
+import java.util.Map;
+import java.util.List;
+
+
+import javax.faces.context.FacesContext;
+import javax.faces.event.ValueChangeEvent;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Projection;
+import org.hibernate.criterion.Projections;
+import org.hibernate.criterion.Restrictions;
+
+public class MenuDAOImpl {
+	SessionFactory sf;
+	Session session;
+	
+	private String localCode;
+	
+	private int menuId;
+	
+	
+
+	public int getMenuId() {
+		return menuId;
+	}
+	
+	private double price;
+	
+	
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public void setMenuId(int menuId) {
+		this.menuId = menuId;
+	}
+
+	public String getLocalCode() {
+		return localCode;
+	}
+
+	public void setLocalCode(String localCode) {
+		this.localCode = localCode;
+	}
+
+	public List<Menu> showMenuByRestaurant(int rid) {
+		SessionFactory sf = SessionHelper.getConnection();
+		Session session = sf.openSession();
+		Criteria cr = session.createCriteria(Menu.class);
+		cr.add(Restrictions.eq("restaurantId", rid));
+		List<Menu> menuList = cr.list();
+		return menuList;
+	}
+
+	public Integer searchByMenuDao(String itemName) {
+		SessionFactory sf = SessionHelper.getConnection();
+		Session session = sf.openSession();
+		Criteria cr = session.createCriteria(Menu.class);
+		cr.add(Restrictions.eq("menItem", itemName));
+
+		Projection projection = Projections.property("menId"); 
+		cr.setProjection(projection); 
+		Integer rid = (Integer)cr.uniqueResult();
+		System.out.println("method " +rid);
+		return rid;
+	}
+	
+	public Menu searchByMenuId(int menuId) {
+		SessionFactory sf = SessionHelper.getConnection();
+		Session session = sf.openSession();
+		Criteria cr = session.createCriteria(Menu.class);
+		cr.add(Restrictions.eq("menId", menuId));
+		Menu menu = (Menu)cr.uniqueResult();
+//		System.out.println(menu);
+		return menu;
+	}
+
+	public void menuLocaleCodeChanged(ValueChangeEvent e){
+		String rname = e.getNewValue().toString();
+		System.out.println(rname);
+//		Map<String,Object> sessionMap = 
+//				FacesContext.getCurrentInstance().getExternalContext().getSessionMap();		
+//		Integer rid = searchByMenuDao(rname);
+//		this.menuId = rid;
+//		this.localCode=rname;
+//		Menu menu = searchByMenuId(this.menuId);
+//		System.out.println("Menu  " +menu);
+//		sessionMap.put("menu", menu);
+//		System.out.println(menu.getMenPrice());
+//		this.setPrice(menu.getMenPrice());
+//		sessionMap.put("price", menu.getMenPrice());
+//		 FacesContext.getCurrentInstance().renderResponse();
+	}
+
+
+	public List<String> showMenuItemNames(int rid) {
+		SessionFactory sf = SessionHelper.getConnection();
+		Session session = sf.openSession();
+		Criteria cr = session.createCriteria(Menu.class);
+		cr.add(Restrictions.eq("restaurantId", rid));
+		Projection projection = Projections.property("menItem");
+		cr.setProjection(projection);
+		List<String> menuList = cr.list();
+		return menuList;
+	}
+	public String showMenuDao(String restaurantId) {
+		Map<String,Object> sessionMap = FacesContext.getCurrentInstance().getExternalContext().getSessionMap();
+		sf = SessionHelper.getConnection();
+		session = sf.openSession();
+		Criteria cr = session.createCriteria(Menu.class);
+		cr.add(Restrictions.eq("restaurantId",restaurantId));
+		List<Menu> menuList = cr.list();
+		sessionMap.put("menuList",menuList);
+		return "ShowMenu.jsp?faces-redirect=true";
+
+	}
+}

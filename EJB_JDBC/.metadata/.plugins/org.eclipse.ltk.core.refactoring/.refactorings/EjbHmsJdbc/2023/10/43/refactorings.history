@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;EjbHmsJdbc&apos;&#x0D;&#x0A;- Original project: &apos;EjbHmsJdbc&apos;&#x0D;&#x0A;- Original element: &apos;com.java.ejb.PatientReport.java&apos;" description="Delete element" element1="/ejbModule&lt;com.java.ejb{PatientReport.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1698407465046" subPackages="false" version="1.0"/>
+</session>

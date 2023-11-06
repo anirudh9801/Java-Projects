@@ -1,0 +1,20 @@
+package com.java.ejb;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class CalcTest
+ */
+@Stateless
+@LocalBean
+public class CalcTest implements CalcTestRemote {
+
+    /**
+     * Default constructor. 
+     */
+    public CalcTest() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

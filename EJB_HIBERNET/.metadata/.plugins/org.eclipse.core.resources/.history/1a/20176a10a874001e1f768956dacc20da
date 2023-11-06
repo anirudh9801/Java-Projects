@@ -1,0 +1,109 @@
+package com.java.ejb;
+
+import javax.persistence.*;
+import java.io.Serializable;
+
+@Entity
+@Table(name = "booking")
+public class Booking implements Serializable {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "bookingId")
+    private Long bookingId;
+
+    @ManyToOne
+    @JoinColumn(name = "custId")
+    private Customer customer;
+
+    @ManyToOne
+    @JoinColumn(name = "PlanId")
+    private InsurancePlans insurancePlan;
+
+    @Column(name = "insuranceId")
+    private String insuranceId;
+
+    @Column(name = "PremiumAmount")
+    private Double premiumAmount;
+
+    @Column(name = "Paymode")
+    private String paymode;
+
+    @Column(name = "InitialAmount")
+    private Double initialAmount;
+
+	public Long getBookingId() {
+		return bookingId;
+	}
+
+	public void setBookingId(Long bookingId) {
+		this.bookingId = bookingId;
+	}
+
+	public Customer getCustomer() {
+		return customer;
+	}
+
+	public void setCustomer(Customer customer) {
+		this.customer = customer;
+	}
+
+	public InsurancePlans getInsurancePlan() {
+		return insurancePlan;
+	}
+
+	public void setInsurancePlan(InsurancePlans insurancePlan) {
+		this.insurancePlan = insurancePlan;
+	}
+
+	public String getInsuranceId() {
+		return insuranceId;
+	}
+
+	public void setInsuranceId(String insuranceId) {
+		this.insuranceId = insuranceId;
+	}
+
+	public Double getPremiumAmount() {
+		return premiumAmount;
+	}
+
+	public void setPremiumAmount(Double premiumAmount) {
+		this.premiumAmount = premiumAmount;
+	}
+
+	public String getPaymode() {
+		return paymode;
+	}
+
+	public void setPaymode(String paymode) {
+		this.paymode = paymode;
+	}
+
+	public Double getInitialAmount() {
+		return initialAmount;
+	}
+
+	public void setInitialAmount(Double initialAmount) {
+		this.initialAmount = initialAmount;
+	}
+
+	public Booking(Long bookingId, Customer customer, InsurancePlans insurancePlan, String insuranceId,
+			Double premiumAmount, String paymode, Double initialAmount) {
+		super();
+		this.bookingId = bookingId;
+		this.customer = customer;
+		this.insurancePlan = insurancePlan;
+		this.insuranceId = insuranceId;
+		this.premiumAmount = premiumAmount;
+		this.paymode = paymode;
+		this.initialAmount = initialAmount;
+	}
+
+	public Booking() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+    // Constructors, getters, and setters
+    
+}

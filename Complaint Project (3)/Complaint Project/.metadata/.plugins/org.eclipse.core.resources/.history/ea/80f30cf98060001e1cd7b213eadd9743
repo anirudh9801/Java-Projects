@@ -1,0 +1,13 @@
+package com.java.comp;
+
+import java.sql.Date;
+
+public class Resolve {
+	private String resolveID;
+	private String  complaintID;
+	private Date complaintDate;
+	private Date   resolveDate;
+	private String  resolvedBy;
+	private String  comments;
+	
+}

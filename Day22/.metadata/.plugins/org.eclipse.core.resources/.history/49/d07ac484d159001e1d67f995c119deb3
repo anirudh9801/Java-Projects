@@ -1,0 +1,7 @@
+package com.java.lib;
+
+import java.sql.SQLException;
+
+public interface LibraryDAO {
+	String createUser(LibUsers libUsers) throws ClassNotFoundException, SQLException;
+}

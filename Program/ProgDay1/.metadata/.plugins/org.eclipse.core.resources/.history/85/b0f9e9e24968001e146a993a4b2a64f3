@@ -1,0 +1,15 @@
+package com.java.Prog;
+
+import java.util.*;
+
+public class CreateArrayList {
+	public static void main(String[] args) {
+		List<String> str = new ArrayList<>();
+		str.add("Ani");
+		str.add("Harsh");
+		str.add("Ariz");
+		str.add("rock");
+		System.out.println(str);
+	}
+
+}

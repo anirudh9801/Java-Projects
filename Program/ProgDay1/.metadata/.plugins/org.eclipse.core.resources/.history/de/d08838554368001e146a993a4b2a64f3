@@ -1,0 +1,13 @@
+package com.java.Prog;
+
+public class Main {
+	public static void main(String[] args) {
+		Person p1= new Person("Anirudh", 23);
+		Person p2= new Person("Harsh", 22);
+		
+		System.out.println(p1.getName()+" "+p1.getAge());
+		System.out.println(p2.getName()+" "+p2.getAge());
+		
+	}
+
+}

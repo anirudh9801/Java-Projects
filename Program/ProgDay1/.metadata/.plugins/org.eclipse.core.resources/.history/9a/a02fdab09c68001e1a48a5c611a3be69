@@ -1,0 +1,21 @@
+//Q)WAP to create a class called "Book" with the Attribute for title,author,and ISBN, 
+//and methods to add and removes books from a collection
+
+
+
+package com.java.Prog;
+
+public class Book {
+	
+	private String title;
+	private String author;
+	private String ISBN;
+	public Book(String title, String author, String iSBN) { 
+		this.title = title;
+		this.author = author;
+		this.ISBN = iSBN;
+	}
+	
+	
+
+}

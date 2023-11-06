@@ -1,0 +1,42 @@
+package com.java.comp;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ComplaintDAOImpl implements ComplaintDAO {
+		Connection connection;
+		PreparedStatement pst;
+	@Override
+	public List<Complaint> showComplaintDao() throws ClassNotFoundException, SQLException {
+		// TODO Auto-generated method stub
+		connection= ConnectionHelper.getConnection();
+		String cmd="select * from agent";
+		pst=connection.prepareStatement(cmd);
+		ResultSet rs=pst.executeQuery();
+		List<Complaint> complist=new ArrayList<Complaint>();
+		Complaint comp=null;
+		while(rs.next()) {
+			comp=new Complaint();
+			comp.setComplaintID(rs.getString("complaintID"));
+			comp.setComplaintType(rs.getString("complaintType"));
+			comp.setCDescription(rs.getString("CDescription"));
+			comp.setComplaintDate(rs.getDate("complaintDate"));
+			comp.setSeverity(rs.getString("severity"));
+			comp.setStatus(rs.getString("status"));
+			complist.add(comp);
+		}
+	
+		return complist;
+	}
+
+	@Override
+	public String addComplaintDao(Complaint comp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

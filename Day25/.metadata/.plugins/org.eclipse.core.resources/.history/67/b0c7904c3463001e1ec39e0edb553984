@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+  <h:head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .content {
+        text-align: center;
+        margin-top: auto;
+      }
+
+      p {
+        font-size: 24px;
+        color: #333;
+        margin: 20px 0;
+      }
+
+      .menu-links {
+        margin-top: 20px;
+      }
+
+      .menu-links a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #007bff;
+        margin: 0 20px;
+      }
+
+      .menu-links a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </h:head>
+
+  <h:body>
+    <div class="content">
+      <p>Welcome to Menu Page....</p>
+
+      <div class="menu-links">
+        <h:commandLink id="image-link-id" action="ShowDept.xhtml">
+          <h:outputText value="Show Departments" />
+        </h:commandLink>
+
+        <h:commandLink id="image-link-id1" action="EmployShow.xhtml">
+          <h:outputText value="Show Employ" />
+        </h:commandLink>
+      </div>
+    </div>
+  </h:body>
+</html>

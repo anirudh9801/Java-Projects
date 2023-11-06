@@ -1,0 +1,18 @@
+package com.java.lib;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class LibraryDAOImpl implements LibraryDAO {
+	  Connection connection;
+      PreparedStatement pst;
+
+	@Override
+	public String createUsers(LibUsers libUsers) {
+     
+       connection = ConnectionHelper.getConnection();
+       String encPwd = EncryptPassword.getCode(libUsers.getPassWord());
+       String cmd = "Insert into LibUsers(UserName, Password)" values(?,?)
+	}
+
+}

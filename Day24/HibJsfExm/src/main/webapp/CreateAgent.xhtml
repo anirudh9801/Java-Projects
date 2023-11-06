@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>Create Agent</title>
+</h:head>
+
+<h:body>
+    <h:form>
+        <h2 style="text-align: center">Create Agent</h2>
+        Agent ID
+        <h:inputText value="#{agent.agentID}" /><br/><br/>
+        Agent Name
+        <h:inputText  value="#{agent.name}" /><br/><br/>
+        Gender
+        <h:inputText  value="#{agent.gender}" /><br/><br/>
+       City
+        <h:inputText  value="#{agent.city}" /><br/><br/>
+        MaritalStatus
+        <h:inputText  value="#{agent.maritalStatus}" /><br/><br/>
+        Premium
+        <h:inputText  value="#{agent.premium}" /><br/><br/>
+        <h:commandButton value="Save" action="#{aDAO.addAgent(agent)}" />
+    </h:form>
+</h:body>
+
+</html>

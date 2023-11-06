@@ -1,0 +1,62 @@
+package com.java.hotel;
+
+import java.util.Date;
+
+
+
+
+public class Customer {
+    private int customerId;
+    private String customerName;
+    private Date checkInDate;
+    private Date checkOutDate;
+    private int roomNumber;
+
+    public Customer(int customerId, String customerName, Date checkInDate, Date checkOutDate, int roomNumber) {
+        this.customerId = customerId;
+        this.customerName = customerName;
+        this.checkInDate = checkInDate;
+        this.checkOutDate = checkOutDate;
+        this.roomNumber = roomNumber;
+    }
+
+    public int getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
+    }
+
+    public String getCustomerName() {
+        return customerName;
+    }
+
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
+    }
+
+    public Date getCheckInDate() {
+        return checkInDate;
+    }
+
+    public void setCheckInDate(Date checkInDate) {
+        this.checkInDate = checkInDate;
+    }
+
+    public Date getCheckOutDate() {
+        return checkOutDate;
+    }
+
+    public void setCheckOutDate(Date checkOutDate) {
+        this.checkOutDate = checkOutDate;
+    }
+
+    public int getRoomNumber() {
+        return roomNumber;
+    }
+
+    public void setRoomNumber(int roomNumber) {
+        this.roomNumber = roomNumber;
+    }
+}

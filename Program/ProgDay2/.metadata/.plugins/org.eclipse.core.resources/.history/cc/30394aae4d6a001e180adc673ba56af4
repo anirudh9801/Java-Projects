@@ -1,0 +1,23 @@
+package com.java.Day3;
+
+public class ExectionExample2 {
+	public static void main(String[] args) {
+		
+		try {
+			System.out.print("A");
+			int num = 99/0;
+			System.out.print("B");
+		} catch (ArithmeticException e) 
+		{
+			System.out.print("C");
+			
+		}catch (Exception e) {
+			System.out.print("D");
+		}finally {
+			System.out.print("E");
+		}
+	}
+	
+	
+
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+</head>
+<body>
+    <form  method="POST"  action="CreateAccountServlet">
+      <center>
+	     First Name:
+        <input type="text" name="firstName" /><br/><br/>
+        
+        Last Name:
+        <input type="text" name="c" /><br/><br/>
+        
+        Username:
+        <input type="text" name="customer_UserName" /><br/><br/>
+        
+        Password:
+        <input type="password" name="customer_Password" /><br/><br/>
+        
+        Email:
+        <input type="email" name="customer_Email" /><br/><br/>
+        
+        Phone Number:
+        <input type="text" name="customer_PhoneNo" /><br/><br/>
+        
+        <input type="submit" value="Register">
+	  </center>
+    </form>
+</body>
+</html>

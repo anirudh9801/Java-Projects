@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+   <form method="post" action="DepositServlet">
+	   <center>
+		   Account Number :
+		   <input type="number" name="accountNo"/><br/><br/>
+		   Deposit Number :
+		   <input type="number" name="DepositAmount"/><br/><br/>
+		   <input type="submit" value="Deposit"/>
+	   </center>
+   </form>
+</body>
+</html>

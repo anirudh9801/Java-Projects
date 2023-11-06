@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <form action="CalculatorServlet" method="post">
+        <input type="text" name="num1" placeholder="Number 1" required />
+        <select name="operation" required>
+            <option value="add">Addition (+)</option>
+            <option value="subtract">Subtraction (-)</option>
+            <option value="multiply">Multiplication (*)</option>
+            <option value="divide">Division (/)</option>
+        </select>
+        <input type="text" name="num2" placeholder="Number 2" required />
+        <input type="submit" value="Calculate" />
+    </form>
+</body>
+</html>

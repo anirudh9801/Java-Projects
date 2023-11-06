@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AgentDashBoard/src/main/webapp/Update.jsp&apos; to &apos;UpdateAgent.jsp&apos;" description="Rename resource &apos;Update.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/Update.jsp" name="UpdateAgent.jsp" stamp="1695288567746" updateReferences="true"/>
+</session>

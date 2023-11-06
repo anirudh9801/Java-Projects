@@ -1,0 +1,10 @@
+package com.java.statemanagement;
+
+public class Login {
+   private String userName;
+   private String PassCode;
+   public String getUserName() {
+	   return userName;
+	   
+   }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_3.xsd"
+              version="2.3">
+
+    <managed-bean>
+        <managed-bean-name>ejbImpl</managed-bean-name>
+        <managed-bean-class>com.java.ejb.HmsEjbImpl</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>doctors</managed-bean-name>
+        <managed-bean-class>com.java.ejb.Doctors</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>patientEjb</managed-bean-name>
+        <managed-bean-class>com.java.ejb.HmsEjbImpl</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>patient</managed-bean-name>
+        <managed-bean-class>com.java.ejb.Patient</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>room</managed-bean-name>
+        <managed-bean-class>com.java.ejb.Room</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+  <managed-bean>
+        <managed-bean-name>roomAllocationBean</managed-bean-name>
+        <managed-bean-class>com.java.ejb.RoomAllocationBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+ 
+
+</faces-config>

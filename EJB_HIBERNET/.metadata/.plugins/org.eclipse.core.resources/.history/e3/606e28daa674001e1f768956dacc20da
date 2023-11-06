@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class dynamic-insert="false" dynamic-update="false" mutable="true" name="com.java.ejb.Booking" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="booking">
+        <id name="bookingId" type="java.lang.Long">
+            <column name="BOOKINGID" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="customer" class="com.java.ejb.Customer" column="custId" not-null="true" />
+        <many-to-one name="insurancePlan" class="com.java.ejb.InsurancePlans" column="PlanId" not-null="true" />
+        <property name="insuranceId" type="java.lang.String">
+            <column name="INSURANCEID" />
+        </property>
+        <property name="premiumAmount" type="java.lang.Double">
+            <column name="PREMIUMAMOUNT" />
+        </property>
+        <property name="paymode" type="java.lang.String">
+            <column name="PAYMODE" />
+        </property>
+        <property name="initialAmount" type="java.lang.Double">
+            <column name="INITIALAMOUNT" />
+        </property>
+    </class>
+</hibernate-mapping>

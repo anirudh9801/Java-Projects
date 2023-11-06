@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+       <form method="get" action="Calculation.jsp">
+         <center>
+                First no.
+                <input type="number"  name="firstno"/><br/><br/>
+                Second no.
+                <input type="number"  name="secondno"/><br/><br/>
+                <input type="submit"  value="Calculation"/>
+         </center>
+       </form>
+       <%
+         if(request.getParameter("firstno")!=null && request.getParameter("secondno") !=null){
+        	 int firstno,secondno,result;
+        	 firstno=Integer.parseInt(request.getParameter("firstno"));
+        	 secondno=Integer.parseInt(request.getParameter("secondno"));
+        	 result=firstno+secondno;
+        	 out.println("Sum is  "+result+"<br/>");
+        	 result=firstno-secondno;
+        	 out.println("Sub is  "+result+"<br/>");
+        	 result=firstno*secondno;
+        	 out.println("Mul is  "+result+"<br/>");
+        	 result=firstno/secondno;
+        	 out.println("Div is  "+result+"<br/>");
+        	 result=firstno%secondno;
+        	 out.println("Mod is  "+result+"<br/>");
+         }
+       %>
+</body>
+</html>

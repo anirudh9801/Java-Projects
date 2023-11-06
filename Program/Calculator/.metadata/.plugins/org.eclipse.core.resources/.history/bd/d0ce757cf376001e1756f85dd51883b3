@@ -1,0 +1,23 @@
+package com.java.jsp;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+public class CalculationDaoImpl implements CalculationDao {
+
+    private SessionFactory sf;
+
+    public CalculationDaoImpl(SessionFactory sf) {
+        this.sf = sf;
+    }
+
+    @Override
+    public void saveCalculation(Calculation calculation) {
+        Session session = sf.openSession();
+        Transaction transaction = session.beginTransaction();
+        session.save(calculation);
+        transaction.commit();
+        session.close();
+    }
+}

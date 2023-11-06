@@ -1,0 +1,61 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+    <h:form>
+        <center>
+            <h2>Insurance Records</h2>
+        </center>
+ 
+        <h:dataTable value="#{paginationCus.getCustomerList()}" var="c" border="3">
+            <h:column>
+                <f:facet name="header">
+                    <h:outputLabel value="Customer Id" />
+                </f:facet>
+                <h:outputText value="#{c.custId}" />
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    <h:outputLabel value="First Name" />
+                </f:facet>
+                <h:outputText value="#{c.firstName}" />
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    <h:outputLabel value="Last Name" />
+                </f:facet>
+                <h:outputText value="#{c.lastName}" />
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    <h:outputLabel value="Gender" />
+                </f:facet>
+                <h:outputText value="#{c.gender}" />
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    <h:outputLabel value="DOB" />
+                </f:facet>
+                <h:outputText value="#{c.dob}" />
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    <h:outputLabel value="Username" />
+                </f:facet>
+                <h:outputText value="#{c.userName}" />
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    <h:outputLabel value="Status" />
+                </f:facet>
+                <h:outputText value="PENDING" />
+            </h:column>
+            
+        </h:dataTable>
+</body>
+</html>

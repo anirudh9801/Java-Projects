@@ -1,0 +1,55 @@
+package com.java.customer;
+
+import java.io.IOException;
+import java.security.NoSuchAlgorithmException;
+import java.sql.SQLException;
+import java.util.Date;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class CreateAccountServlet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+
+    public CreateAccountServlet() {
+        super();
+    }
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        // Retrieve user input from the form
+        String firstName = request.getParameter("customer_Firstname");
+        String lastName = request.getParameter("customer_LastName");
+        String username = request.getParameter("customer_UserName");
+        String plainPassword = request.getParameter("customer_Password");
+        String email = request.getParameter("customer_Email");
+        String phoneNo = request.getParameter("customer_PhoneNo");
+
+        // Generate OTP
+        int otp = GenerateOtp.generateOtp();
+
+        // Encrypt the plain password
+        String encryptedPassword = EncryptPassword.getCode(plainPassword);
+
+        // Create a new customer account object
+        CreateAccount account = new CreateAccount(firstName, lastName, username, encryptedPassword, email, phoneNo,
+                "Active", new java.sql.Date(new Date().getTime()));
+
+        CreateAccountDAO dao = new CreateAccountImpl();
+
+        try {
+            String result = dao.createaccount(account);
+
+            // Assuming you want to send the OTP back to the user as a response
+            response.setContentType("text/html");
+            response.getWriter().write("<html><body>");
+            response.getWriter().write("<h1>" + result + "</h1>");
+            response.getWriter().write("<p>Your OTP is: " + otp + "</p>");
+            response.getWriter().write("</body></html>");
+        } catch (ClassNotFoundException | SQLException e) {
+            e.printStackTrace();
+            // Handle the exception or provide an error message to the user.
+        } 
+    }
+}

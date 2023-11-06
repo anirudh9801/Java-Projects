@@ -1,0 +1,71 @@
+package com.java.lib;
+
+ 
+
+import java.sql.Connection;
+
+import java.sql.PreparedStatement;
+
+import java.sql.SQLException;
+
+ 
+
+ 
+
+public  class LibraryDAOImpl implements LibraryDAO{
+
+	
+
+	Connection connection;
+
+	PreparedStatement pst;
+
+	
+
+	public boolean checkPassword(String pwd, String retype) {
+
+		if(pwd.equals(retype)) {
+
+			return true;
+
+		}
+
+		return false;
+
+	}
+
+ 
+
+	@Override
+
+	public String createUser(LibUsers libUsers) throws ClassNotFoundException, SQLException {
+
+		connection = ConnectionHelper.getConnection();
+
+		String encPwd = EncryptPassword.getCode(libUsers.getPassWord());
+
+		String cmd = "Insert into LibUsers(UserName, Password) values (?,?)";
+
+		pst = connection.prepareStatement(cmd);
+
+		pst.setString(1, libUsers.getUserName());
+
+		pst.setString(2, encPwd);
+
+	    pst.executeUpdate();
+
+	    return "Uset account Created";
+
+	}
+
+
+
+	@Override
+	public String createUsers(LibUsers libUsers) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+ 
+
+}

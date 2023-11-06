@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;JsfEjbAgent/src/main/java/com.java.ejb&apos;&#x0D;&#x0A;- Original project: &apos;EjbAgentJdbc&apos;&#x0D;&#x0A;- Destination element: &apos;JsfEjbAgent/src/main/java/com.java.ejb&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.java.ejb.Agent.java&#x0D;&#x0A;     com.java.ejb.AgentEjbBeanRemote.java&#x0D;&#x0A;     com.java.ejb.Gender.java" description="Copy compilation units" destination="=JsfEjbAgent/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.java.ejb" element1="/ejbModule&lt;com.java.ejb{Agent.java" element2="/ejbModule&lt;com.java.ejb{AgentEjbBeanRemote.java" element3="/ejbModule&lt;com.java.ejb{Gender.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1697606838136" units="3" version="1.0"/>
+</session>

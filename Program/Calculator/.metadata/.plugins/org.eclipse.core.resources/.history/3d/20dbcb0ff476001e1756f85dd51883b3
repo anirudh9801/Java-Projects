@@ -1,0 +1,50 @@
+package com.java.jsp;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+public class CalculationDaoImpl implements CalculationDao {
+
+    private SessionFactory sf;
+
+    public CalculationDaoImpl(SessionFactory sf) {
+        this.sf = sf;
+    }
+
+    @Override
+    public void saveCalculation(Calculation calculation) {
+        Session session = sf.openSession();
+        Transaction transaction = session.beginTransaction();
+        double num1 = calculation.getNum1();
+        double num2 = calculation.getNum2();
+        String operation = calculation.getOperation();
+        double result = 0.0;
+        switch (operation) {
+            case "add":
+                result = num1 + num2;
+                break;
+            case "subtract":
+                result = num1 - num2;
+                break;
+            case "multiply":
+                result = num1 * num2;
+                break;
+            case "divide":
+                if (num2 != 0) {
+                    result = num1 / num2;
+                } else {
+                  
+                    result = Double.NaN; 
+                }
+                break;
+    
+        }
+
+        calculation.setResult(result); 
+        session.save(calculation);
+
+        transaction.commit();
+        session.close();
+    }
+}

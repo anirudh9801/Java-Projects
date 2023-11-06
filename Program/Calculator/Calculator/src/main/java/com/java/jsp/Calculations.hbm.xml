@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Oct 30, 2023, 1:56:44 PM by Hibernate Tools 3.6.2.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class dynamic-insert="false" dynamic-update="false" mutable="true" name="com.java.jsp.Calculations" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="CALCULATIONS">
+        <id name="id" type="int">
+            <column name="ID"/>
+            <generator class="assigned"/>
+        </id>
+        <property generated="never" lazy="false" name="num1" optimistic-lock="true" type="double" unique="false">
+            <column name="NUM1"/>
+        </property>
+        <property generated="never" lazy="false" name="num2" optimistic-lock="true" type="double" unique="false">
+            <column name="NUM2"/>
+        </property>
+        <property generated="never" lazy="false" name="result" optimistic-lock="true" type="double" unique="false">
+            <column name="RESULT"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee /WEB-INF/schema/web-facesconfig_2_2.xsd"
+    version="2.2">
+
+    <!-- This file must be present with our jar, even if it is empty. Otherwise,
+        our Java annotations won't get scanned! -->
+
+    <managed-bean>
+        <managed-bean-name>calc</managed-bean-name>
+        <managed-bean-class>com.java.jsp.CalculationDaoImpl</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>calculation</managed-bean-name>
+        <managed-bean-class>com.java.jsp.Calculation</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+</faces-config>

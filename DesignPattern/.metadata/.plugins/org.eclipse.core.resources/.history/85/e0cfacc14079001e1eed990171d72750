@@ -1,0 +1,9 @@
+package com.java.dsp;
+
+public class DotnetTraining extends Training {
+
+	@Override
+	String getTrainingDatails() {
+		// TODO Auto-generated method stub
+		return "Focus on .NET core only 5.0 framework and API is Mandotory";
+	}

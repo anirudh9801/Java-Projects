@@ -1,0 +1,9 @@
+package com.java.hotel;
+
+public class EmployShowMain {
+	public static void main(String[] args) {
+		EmployDAO dao = new EmployDAOImpl();
+		
+	}
+
+}

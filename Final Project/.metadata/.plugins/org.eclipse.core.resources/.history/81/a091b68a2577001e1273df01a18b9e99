@@ -1,0 +1,10 @@
+package com.java.jsp;
+import java.util.List;
+
+public interface PatientDao {
+	List<Patient> showCustomer();
+	String addPatient(Patient patient);
+}
+
+
+

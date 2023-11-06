@@ -1,0 +1,13 @@
+package com.java.hotel;
+
+import java.sql.Date;
+
+public class Customer {
+	
+	private int CustomerID;
+	private String CustomerName;
+	private Date CheckInDate;
+	private Date CheckOutDate;
+	private int RoomNumber;
+
+}

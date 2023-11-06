@@ -1,0 +1,57 @@
+package com.java.jsp;
+
+import java.util.List;
+import java.util.Random;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+
+public class PatientDaoImpl implements PatientDao{
+	SessionFactory sf;
+	Session session;
+	@Override
+	public String addPatient(Patient patient) {
+		sf=SessionHelper.getConnection();
+		session = sf.openSession();
+		Transaction trans = session.beginTransaction();
+		session.save(patient);
+		
+		int otp = generateOtp();
+		
+		String body = "Welcome to Mr/Miss  " + patient.getFirstName() + "\r\n" + "Your OTP Generated Successfully..."
+
+				+ "\r\n" + "OTP is " + otp;
+
+		MailSend.mailOtp(patient.getEmail(), "Otp Send Successfully...", body);
+		trans.commit();
+		sf = SessionHelper.getConnection();
+
+		session = sf.openSession();
+
+		Transaction trans2 = session.beginTransaction();
+
+		Login cust = new Login();
+
+		cust.setCustId(customer.getCustId());
+
+		cust.setUsername(customer.getUserName());
+
+		cust.setOtp(String.valueOf(otp));
+
+		session.save(cust);
+
+		session.getTransaction().commit();
+		
+		return "Welcome.jsp?faces-redirect=true";
+	}
+	public static int generateOtp() {
+
+		Random r = new Random(System.currentTimeMillis());
+
+		return ((1 + r.nextInt(2)) * 10000 + r.nextInt(10000));
+
+	}
+
+}

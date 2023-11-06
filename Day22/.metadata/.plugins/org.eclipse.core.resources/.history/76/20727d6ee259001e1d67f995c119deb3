@@ -1,0 +1,51 @@
+<%@page import="java.util.List"%>
+<%@page import="java.util.ArrayList"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Issue Books</title>
+</head>
+<body>
+    <h1>Issue Books</h1>
+
+    <%
+        // Get the selected book IDs from the request
+        String[] selectedBookStrings = request.getParameterValues("selectedBooks");
+        String userName = request.getParameter("userName");
+        List<Integer> selectedBooks = new ArrayList<>();
+
+        // Convert the selectedBookStrings to a list of integers
+        if (selectedBookStrings != null) {
+            for (String bookIdString : selectedBookStrings) {
+                try {
+                    int bookId = Integer.parseInt(bookIdString);
+                    selectedBooks.add(bookId);
+                } catch (NumberFormatException e) {
+                    // Handle invalid book ID (e.g., not a valid integer)
+                }
+            }
+        }
+
+        // Import your LibraryDAO implementation and create an instance (dao)
+        // Example: 
+        com.java.lib.LibraryDAO dao = new com.java.lib.LibraryDaoImpl();
+
+        // Process the selected book IDs and username
+        String issuanceResult = dao.issueBooks(selectedBooks, userName);
+        
+        // Check if the issuance was successful
+        if ("Success".equals(issuanceResult)) {
+        %>
+        <p>Books have been issued successfully.</p>
+        <%
+        } else {
+        %>
+        <p>Failed to issue books. Please try again.</p>
+        <%
+        }
+    %>
+
+</body>
+</html>

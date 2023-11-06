@@ -1,0 +1,61 @@
+package com.java.comp;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+public class ResolveComplaint {
+	
+	Connection connection;
+	PreparedStatement pst;
+	public List<Resolve> ResolvedRecords() throws ClassNotFoundException{
+		List<Resolve> records = new ArrayList<>();
+		try {
+	
+		connection=ConnectionHelper.getConnection();
+		String cmd="select * from resolve";
+		pst=connection.prepareStatement(cmd);
+		ResultSet rs=pst.executeQuery();
+
+
+        while (rs.next()) {
+            Resolve complaint = new Resolve();
+            complaint.setResolveID(rs.getString("ResolveID"));
+            complaint.setComplaintID(rs.getString("ComplaintID"));
+            complaint.setComplaintDate(rs.getTimestamp("ComplaintDate"));
+            complaint.setResolveDate(rs.getTimestamp("ResolveDate"));
+            complaint.setResolvedBy(rs.getString("ResolvedBy"));
+            complaint.setComments(rs.getString("Comments"));
+
+            // Calculate TAT (Turn Around Time)
+            long tatHours = calculateTAT(complaint.getComplaintDate(), complaint.getResolveDate());
+            complaint.setTat(tatHours);
+
+            records.add(complaint);
+        }
+    } catch (SQLException e) {
+        e.printStackTrace();
+    } finally {
+        // Close resources (Connection, PreparedStatement, ResultSet) here
+    }
+
+    return records;
+}
+
+	 private long calculateTAT(Timestamp complaintDate, Timestamp resolveDate) {
+	        long milliseconds = resolveDate.getTime() - complaintDate.getTime();
+	        long hours = milliseconds / (60 * 60 * 1000);
+	        return hours;
+	    }
+}
+
+
+
+
+

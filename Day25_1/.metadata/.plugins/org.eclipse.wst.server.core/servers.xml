@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost" name="Tomcat v8.5 Server at localhost" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="20">
+    <list key="modules" value0="Jspjsf::org.eclipse.jst.jee.server:Jspjsf::jst.web::2.5" value1="LoginJsfjsp::org.eclipse.jst.jee.server:LoginJsfjsp::jst.web::2.5" value2="JsfHibJsp::org.eclipse.jst.jee.server:JsfHibJsp::jst.web::2.5" value3="cmsinfinitenew::org.eclipse.jst.jee.server:cmsinfinitenew::jst.web::2.5" value4="cms::org.eclipse.jst.jee.server:cms::jst.web::2.5"/>
+  </server>
+</servers>

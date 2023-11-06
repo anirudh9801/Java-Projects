@@ -1,0 +1,34 @@
+package com.java.ejb;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.naming.NamingException;
+
+public class HmsEjbImpl {
+	public List<Doctors> showDoctorsEjb() throws NamingException, ClassNotFoundException, SQLException{
+		HmsEjbBeanRemote remote = RemoteHelper.lookupRemoteStatelessDotors();
+		return remote.showDoctors();
+		}
+	  public String addPatientEjb(Patient patientNew) throws NamingException, ClassNotFoundException, SQLException {
+		  HmsEjbBeanRemote remote = RemoteHelper.lookupRemoteStatelessDotors();
+		  remote.addPatient(patientNew);
+		  return "AddPatient.jsp?faces-redirect=true";
+		  
+	  }
+	  public List<Patient> showPatientEjb() throws NamingException, ClassNotFoundException, SQLException{
+		  HmsEjbBeanRemote remote = RemoteHelper.lookupRemoteStatelessDotors();
+		  return remote.showPatient();
+	  }
+	  
+		public List<String> getRoomTypesEjb() throws NamingException, ClassNotFoundException, SQLException{
+			 HmsEjbBeanRemote remote = RemoteHelper.lookupRemoteStatelessDotors();
+			 return remote.getRoomStatuses();
+			 
+		 }
+		
+		public List<String> getRoomStatusesEjb(){
+			
+		}
+
+}

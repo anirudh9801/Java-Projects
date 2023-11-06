@@ -1,0 +1,61 @@
+package com.java.comp;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+public class ResolveComplaint {
+	List<ResolveComplaint> records = new ArrayList<>();
+	Connection connection;
+	PreparedStatement pst;
+	public List<ResolveComplaint> ResolvedRecords(){
+		try {
+	
+		connection=ConnectionHelper.getConnection();
+		String cmd="select * from complaint where complaintID=?";
+		pst=connection.prepareStatement(cmd);
+		ResultSet rs=pst.executeQuery();
+
+        while (rs.next()) {
+            String resolveId = rs.getString("resolveID");
+            String complaintId = rs.getString("complaintID");
+            Timestamp complaintDate = rs.getTimestamp("complaintDate");
+            Timestamp resolveDate = rs.getTimestamp("resolveDate");
+            String resolvedBy = rs.getString("resolvedBy");
+            String comments = rs.getString("comments");
+            
+            long tat = calculateTAT(complaintDate, resolveDate);
+            String color = getColorBasedOnTAT(tat);
+
+            ResolveComplaint record = new ResolveComplaint(resolveId, complaintId, complaintDate, resolveDate, resolvedBy, comments);
+            records.add(record);
+        }
+    } catch (ClassNotFoundException | SQLException e) {
+        e.printStackTrace();
+    } finally {
+        // Close resources (Connection, PreparedStatement, ResultSet) here
+    }
+
+    return records;
+}
+
+    private long calculateTAT(Timestamp complaintDate, Timestamp resolveDate) {
+        long durationInMillis = resolveDate.getTime() - complaintDate.getTime();
+        return TimeUnit.MILLISECONDS.toDays(durationInMillis);
+}
+    private String getColorBasedOnTAT(long tat) {
+        if (tat >= 7 && tat < 10) {
+            return "pink";
+        } else if (tat >= 10) {
+            return "red";
+        } else {
+            return "default"; // or any other color you want to use
+        }
+    }
+}

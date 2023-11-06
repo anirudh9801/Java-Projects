@@ -1,0 +1,16 @@
+package com.java.jsp;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+public class CalculationDaoImpl implements CalculationDao{
+
+	@Override
+	public void saveCalculation(Calculation calculation) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+
+}

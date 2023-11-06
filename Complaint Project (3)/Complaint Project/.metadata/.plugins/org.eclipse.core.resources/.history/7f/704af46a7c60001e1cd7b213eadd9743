@@ -1,0 +1,38 @@
+<%@page import="java.util.List"%>
+<%@page import="com.java.comp.ComplaintDAOImpl"%>
+<%@page import="com.java.comp.ComplaintDAO"%>
+<%@page import="com.java.comp.Complaint"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+
+%>
+ <h1>Search Results</h1>
+    <% 
+        String complaintID = request.getParameter("complaintID");
+     ComplaintDAO dao=new ComplaintDAOImpl();
+     List<Complaint> complist=dao.showComplaintDao();
+        Complaint comp = new Complaint();
+        comp.setComplaintID(complaintID);
+       
+        if (comp != null) {
+    %>
+    <p>complaint ID: <%= comp.getComplaintID() %></p>
+    <p>complaintType: <%= comp.getComplaintType() %></p>
+    <p>CDescription: <%= comp.getCDescription() %></p>
+    <p>complaintDate : <%= comp.getComplaintDate() %></p>
+    <p>severity: <%= comp.getSeverity() %></p>
+    <p>status: <%= comp.getStatus() %></p>
+    <% } else { %>
+    <p>Complaint ID not found.</p>
+    <% } %>
+    <a href="SearchComp.jsp">Back to Search</a>
+</body>
+</html>

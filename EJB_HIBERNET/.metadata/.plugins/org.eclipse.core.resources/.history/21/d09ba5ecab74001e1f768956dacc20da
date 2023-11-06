@@ -1,0 +1,76 @@
+import java.util.Date;
+
+public class Booking {
+    private int policyId;
+    private int custId;
+    private int planId;
+    private String insuranceId;
+    private double premiumAmount;
+    private String paymode;
+    private double installmentAmount;
+    private Date registerDate;
+
+    public int getPolicyId() {
+        return policyId;
+    }
+
+    public void setPolicyId(int policyId) {
+        this.policyId = policyId;
+    }
+
+    public int getCustId() {
+        return custId;
+    }
+
+    public void setCustId(int custId) {
+        this.custId = custId;
+    }
+
+    public int getPlanId() {
+        return planId;
+    }
+
+    public void setPlanId(int planId) {
+        this.planId = planId;
+    }
+
+    public String getInsuranceId() {
+        return insuranceId;
+    }
+
+    public void setInsuranceId(String insuranceId) {
+        this.insuranceId = insuranceId;
+    }
+
+    public double getPremiumAmount() {
+        return premiumAmount;
+    }
+
+    public void setPremiumAmount(double premiumAmount) {
+        this.premiumAmount = premiumAmount;
+    }
+
+    public String getPaymode() {
+        return paymode;
+    }
+
+    public void setPaymode(String paymode) {
+        this.paymode = paymode;
+    }
+
+    public double getInstallmentAmount() {
+        return installmentAmount;
+    }
+
+    public void setInstallmentAmount(double installmentAmount) {
+        this.installmentAmount = installmentAmount;
+    }
+
+    public Date getRegisterDate() {
+        return registerDate;
+    }
+
+    public void setRegisterDate(Date registerDate) {
+        this.registerDate = registerDate;
+    }
+}

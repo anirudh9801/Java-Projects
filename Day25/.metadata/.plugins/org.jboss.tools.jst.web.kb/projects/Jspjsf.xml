@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-coyote.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/ecj-4.6.3.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-util.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-ant.jar"/>
+  <path value="/Jspjsf/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="Jspjsf"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="D:/apache-tomcat-8.5.42/lib/jasper-el.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/hk2-api/3.0.4/hk2-api-3.0.4.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/core/jersey-common/3.1.3/jersey-common-3.1.3.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-jdbc.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-util-scan.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/com/sun/faces/jsf-api/2.2.20/jsf-api-2.2.20.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/3.0.4/aopalliance-repackaged-3.0.4.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-fr.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/javassist/javassist/3.29.2-GA/javassist-3.29.2-GA.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/jaspic-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-dbcp.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/annotations-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/servlet-api.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="Jspjsf"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="D:/apache-tomcat-8.5.42/lib/jasper.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/core/jersey-client/3.1.3/jersey-client-3.1.3.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-ru.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/hk2-locator/3.0.4/hk2-locator-3.0.4.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-storeconfig.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/core/jersey-server/3.1.3/jersey-server-3.1.3.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/3.1.3/jersey-hk2-3.1.3.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-ja.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-es.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-api.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-tribes.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/el-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/websocket-api.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/3.1.3/jersey-container-servlet-core-3.1.3.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/jsp-api.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/com/sun/faces/jsf-impl/2.2.14/jsf-impl-2.2.14.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/html_basic.tld" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/jsf_core.tld" project="Jspjsf"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/mojarra_ext.taglib.xml" project="Jspjsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/meta-inf/mojarra_ext.tld" project="Jspjsf"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="Jspjsf"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="Jspjsf"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="Jspjsf"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="Jspjsf"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="Jspjsf"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="Jspjsf"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.14.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="Jspjsf"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-jni.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-websocket.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-ha.jar"/>
+  <path value="C:/Users/anirudhm/.m2/repository/org/glassfish/hk2/hk2-utils/3.0.4/hk2-utils-3.0.4.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="24" name="%0" offset="531" path="%1"/>
+   <linked-el length="27" name="%0" offset="904" path="%1"/>
+   <linked-el length="26" name="%0" offset="604" path="%1"/>
+   <linked-el length="30" name="%0" offset="701" path="%1"/>
+   <linked-el length="25" name="%0" offset="350" path="%1"/>
+   <linked-el length="26" name="%0" offset="447" path="%1"/>
+   <linked-el length="32" name="%0" offset="800" path="%1"/>
+   <linked-el length="12" name="%2" offset="680" path="%3"/>
+   <linked-el length="30" name="%4" offset="701" path="%1"/>
+   <linked-el length="17" name="%5" offset="1355" path="%6"/>
+   <linked-el length="62" name="%7" offset="624" path="%8"/>
+   <linked-el length="20" name="%7" offset="442" path="%8"/>
+   <linked-el length="26" name="%9" offset="604" path="%1"/>
+   <linked-el length="62" name="%10" offset="624" path="%8"/>
+   <linked-el length="20" name="%10" offset="556" path="%8"/>
+   <linked-el length="20" name="%10" offset="442" path="%8"/>
+   <linked-el length="25" name="%11" offset="350" path="%1"/>
+   <linked-el length="27" name="%12" offset="904" path="%1"/>
+   <linked-el length="17" name="%13" offset="1355" path="%6"/>
+   <linked-el length="12" name="%14" offset="680" path="%3"/>
+   <linked-el length="62" name="%15" offset="624" path="%8"/>
+   <linked-el length="20" name="%15" offset="556" path="%8"/>
+   <linked-el length="62" name="%16" offset="624" path="%8"/>
+   <linked-el length="26" name="%17" offset="447" path="%1"/>
+   <linked-el length="24" name="%18" offset="531" path="%1"/>
+   <linked-el length="32" name="%19" offset="800" path="%1"/>
+   <linked-el length="28" name="%20" offset="509" path="%3"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="calculation" value="%0"/>
+  <alias path="/Jspjsf/src/main/webapp/Login.jsp" value="%8"/>
+  <alias path="e" value="%2"/>
+  <alias path="calculation.substraction" value="%4"/>
+  <alias path="jersey.version" value="%5"/>
+  <alias path="login.userName" value="%7"/>
+  <alias path="calculation.addition" value="%9"/>
+  <alias path="login" value="%10"/>
+  <alias path="calculation.firstNo" value="%11"/>
+  <alias path="calculation.division" value="%12"/>
+  <alias path="/Jspjsf/pom.xml" value="%6"/>
+  <alias path="jersey" value="%13"/>
+  <alias path="e.empno" value="%14"/>
+  <alias path="login.passCode" value="%15"/>
+  <alias path="/Jspjsf/src/main/webapp/Calc.jsp" value="%1"/>
+  <alias path="loginDao" value="%16"/>
+  <alias path="/Jspjsf/src/main/webapp/EmployTable.jsp" value="%3"/>
+  <alias path="calculation.secondNo" value="%17"/>
+  <alias path="calculation.result" value="%18"/>
+  <alias path="calculation.multiplication" value="%19"/>
+  <alias path="employDao" value="%20"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

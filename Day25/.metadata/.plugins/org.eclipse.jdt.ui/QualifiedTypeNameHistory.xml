@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="org.hibernate.Criteria"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="com.java.jsf.SessionHelper"/>
+    <fullyQualifiedTypeName name="org.hibernate.criterion.Projection"/>
+    <fullyQualifiedTypeName name="org.hibernate.criterion.Projections"/>
+    <fullyQualifiedTypeName name="javax.faces.event.ValueChangeEvent"/>
+    <fullyQualifiedTypeName name="org.hibernate.criterion.Restrictions"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.faces.event.ActionEvent"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,20 @@
+package com.java.Day2;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class RmvDuplArrLst {
+	public static void main(String[] args) {
+		ArrayList<String> colors = new ArrayList<String>();
+		colors.add("Red");
+		colors.add("Blue");
+		colors.add("Blue");
+		colors.add("Black");
+		
+		colors.remove("Red");
+		for (String str : colors) {
+			System.out.println(str);
+		}
+	}
+
+}

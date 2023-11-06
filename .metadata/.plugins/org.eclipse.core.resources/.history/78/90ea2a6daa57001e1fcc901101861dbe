@@ -1,0 +1,39 @@
+package com.java.customer;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class CreateAccountImpl implements CreateAccountDAO {
+
+    @Override
+    public String createaccount(CreateAccount account) {
+    	
+        try {
+        	 Connection connection = ConnectionHelper.getConnection();
+            String query = "INSERT INTO accounts (customer_Firstname, customer_lastname, customer_username, " +
+                    "customer_password, customer_email, customer_phoneno, customer_status, customer_activatedon) " +
+                    "VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setString(1, account.getCustomer_Firstname());
+            preparedStatement.setString(2, account.getCustomer_lastname());
+            preparedStatement.setString(3, account.getCustomer_username());
+            preparedStatement.setString(4, account.getCustomer_password());
+            preparedStatement.setString(5, account.getCustomer_email());
+            preparedStatement.setString(6, account.getCustomer_phoneno());
+            preparedStatement.setString(7, account.getCustomer_status());
+            preparedStatement.setDate(8, account.getCustomer_activatedon());
+
+            int rowsAffected = preparedStatement.executeUpdate();
+
+            if (rowsAffected > 0) {
+                return "Account created successfully";
+            } else {
+                return "Account creation failed";
+            }
+        } catch (SQLException | ClassNotFoundException e) {
+            e.printStackTrace();
+            return "Error: " + e.getMessage();
+        }
+    }
+}
